@@ -1,0 +1,41 @@
+{
+  "prob_cheapest_import": {
+    "O4a_GREGY": 0.8945,
+    "O1_EastMed": 0.09125,
+    "O2_LNG_Egypt": 0.01415,
+    "O3_GSI": 0.0001
+  },
+  "h0_tests": {
+    "P(O3_GSI < O1_EastMed), full risk": 0.0241,
+    "P(maritime increment O3_GSI < O1_EastMed)": 0.00045,
+    "P(geopolitical increment O3_GSI < O1_EastMed)": 0.04095,
+    "P(O3_GSI < O2_LNG_Egypt), full risk": 0.127,
+    "P(maritime increment O3_GSI < O2_LNG_Egypt)": 0.0,
+    "P(geopolitical increment O3_GSI < O2_LNG_Egypt)": 0.80855,
+    "P(O4a_GREGY < O1_EastMed), full risk": 0.9,
+    "P(maritime increment O4a_GREGY < O1_EastMed)": 0.9604,
+    "P(geopolitical increment O4a_GREGY < O1_EastMed)": 0.17105,
+    "P(O4a_GREGY < O2_LNG_Egypt), full risk": 0.95865,
+    "P(maritime increment O4a_GREGY < O2_LNG_Egypt)": 0.0,
+    "P(geopolitical increment O4a_GREGY < O2_LNG_Egypt)": 0.7627,
+    "P(O4b_EuroAfrica < O1_EastMed), full risk": 0.1071,
+    "P(maritime increment O4b_EuroAfrica < O1_EastMed)": 0.00895,
+    "P(geopolitical increment O4b_EuroAfrica < O1_EastMed)": 0.0371,
+    "P(O4b_EuroAfrica < O2_LNG_Egypt), full risk": 0.33955,
+    "P(maritime increment O4b_EuroAfrica < O2_LNG_Egypt)": 0.0,
+    "P(geopolitical increment O4b_EuroAfrica < O2_LNG_Egypt)": 0.6501
+  },
+  "route_exposure_share": {
+    "O1_EastMed": 0.3645,
+    "O3_GSI": 0.375,
+    "O4a_GREGY": 0.186,
+    "O4b_EuroAfrica": 0.335
+  },
+  "parameter_status": {
+    "sourced": 92,
+    "judgement": 43,
+    "design": 11,
+    "unused": 5
+  },
+  "n": 20000
+}

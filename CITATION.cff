@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Risk-adjusted cost of East Mediterranean energy corridors: model code and data"
+type: software
+version: 1.0.0
+date-released: 2026-10-11
+license: MIT
+repository-code: "https://github.com/SAAAHco/Eastmed-corridors-risk-model"
+authors:
+  - family-names: Pappas
+    given-names: Konstantinos
+    affiliation: "Texas A&M University"
+    orcid: "https://orcid.org/0000-0001-7816-6359"
+  - family-names: Ashkanani
+    given-names: Zainab
+    affiliation: "Texas A&M University"
+    orcid: "https://orcid.org/0000-0002-3628-9622"
+abstract: >-
+  Python model, parameter register, source tables, route and claim geometry,
+  Monte Carlo draws, tables and figures for a risk-adjusted cost comparison of
+  gas and power corridors from the Eastern Mediterranean to the EU: the EastMed
+  pipeline, Levant gas liquefied in Egypt, the Great Sea Interconnector, the
+  GREGY and EuroAfrica cables, and Greek renewables.
+keywords:
+  - interconnector
+  - pipeline
+  - liquefied natural gas
+  - political risk
+  - maritime disputes
+  - UNCLOS
+  - carbon border adjustment
+  - Monte Carlo

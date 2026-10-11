@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# EPS figures are large; the scripts regenerate them next to the PNG files
+*.eps
+
+# third-party files that are cited, not redistributed (see README)
+data/raw/manual/

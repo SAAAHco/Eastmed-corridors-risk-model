@@ -1,0 +1,152 @@
+name,description,unit,dist,base,low,high,source_id,status,notes
+fx_usd_per_eur,"USD per EUR, 2025 average",USD/EUR,fixed,1.1299831372549,,,ECB_FX,sourced,"ECB reference rate, 2025 annual average"
+infl_usd,long-run expected US inflation (nominal to real),1/yr,triangular,0.023,0.02,0.026,,judgement,Fed 2% target; 10-yr breakeven ~2.2-2.4% (2025)
+rf_usd,"risk-free rate, US 10y Treasury",1/yr,triangular,0.0395,0.0375,0.043,DAMODARAN_WACC_2026,sourced,US riskfree net of Aa1 default spread implied by Damodaran Jan 2026 industry cost of equity
+erp_mature,mature-market equity risk premium (Damodaran implied),1/yr,triangular,0.0423,0.04,0.046,DAMODARAN_CRP_2026,sourced,"implied ERP, Jan 2026 update; range spans Jan 2022-Jan 2026 editions"
+p_co2,"EU ETS allowance price, levelised 2030-2055",EUR/t,triangular,110.0,70.0,160.0,WEB:LSEG_EUA_2025;WEB:CARBONPULSE_POLL,judgement,2025 avg ~EUR 74/t; >EUR 90 Jan 2026; levelised 2030-2055
+p_repl_gas,replacement gas price when supply is interrupted,EUR/MWh_GCV,triangular,43.602088194600924,33.10129095808133,87.20417638920185,WB_PINKSHEET_2026_10,sourced,"TTF: low = 2024 avg, mode = mean of 2025 and 2026 YTD avg, high = 2x mode (crisis)"
+p_repl_el,replacement electricity price when a cable is out,EUR/MWh_e,triangular,105.0,90.0,180.0,WEB:EMAPS_GR_2025,sourced,Greek DAM 2025 ~EUR 103/MWh (2024 ~101)
+firming_adder,firming/integration cost for variable renewables,EUR/MWh_e,triangular,15.0,5.0,36.0,A:GEN_PV_BESS_FIRMLCOE_IRENA25;A:GEN_PV_LCOE_GLOBAL_IRENA25,judgement,upper = IRENA 2025 gap between firm solar+storage (95%) and plain PV LCOE (USD 41/MWh)
+p_gas_levant_usd,Levant gas price at origin/Egyptian border,USD/MMBtu,triangular,6.2,5.2,7.5,IL:IL_REALISED_PRICE,sourced,Leviathan realised USD 5.19-6.55/MMBtu (2024-2Q2026); upper = reported Egypt deal level
+crp_IL,country risk premium IL,1/yr,triangular,0.0206935176727701,0.012171490234296,0.0213322086148228,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+crp_CY,country risk premium CY,1/yr,triangular,0.0155201382545775,0.0155201382545775,0.0432087903317508,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+crp_GR,country risk premium GR,1/yr,triangular,0.0284535868000589,0.0284535868000589,0.0620746001949096,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+crp_EG,country risk premium EG,1/yr,triangular,0.097076943200201,0.0949376238275089,0.1000731551195365,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+crp_TR,country risk premium TR,1/yr,triangular,0.0465604147637327,0.0465604147637327,0.1121805683260949,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+crp_IT,country risk premium IT,1/yr,triangular,0.0246496313455055,0.0246496313455055,0.0379344778968892,DAMODARAN_CRP_2022_2024_2026,sourced,"rating-based CRP; mode Jan 2026, range across 2022-2026 editions"
+ds_IL,sovereign default spread IL,1/yr,fixed,0.0135839666090171,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+ds_CY,sovereign default spread CY,1/yr,fixed,0.0101879749567628,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+ds_GR,sovereign default spread GR,1/yr,fixed,0.0186779540873985,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+ds_EG,sovereign default spread EG,1/yr,fixed,0.0637247845334774,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+ds_TR,sovereign default spread TR,1/yr,fixed,0.0305639248702885,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+ds_IT,sovereign default spread IT,1/yr,fixed,0.0161809014019174,,,DAMODARAN_CRP_2026,sourced,"rating-based sovereign default spread, Jan 2026"
+tax_IL,corporate income tax rate IL,-,fixed,0.23,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+tax_CY,corporate income tax rate CY,-,fixed,0.125,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+tax_GR,corporate income tax rate GR,-,fixed,0.22,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+tax_EG,corporate income tax rate EG,-,fixed,0.225,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+tax_TR,corporate income tax rate TR,-,fixed,0.25,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+tax_IT,corporate income tax rate IT,-,fixed,0.2781,,,DAMODARAN_TAX_2026,sourced,"statutory corporate tax rate, 2025"
+beta_u_pipe,"unlevered beta, pipe",-,fixed,0.4120829108130902,,,DAMODARAN_WACC_2026,sourced,"Europe, Oil/Gas Distribution: levered beta 0.670, D/V 0.406, tax 0.084"
+de_pipe,"debt/equity, pipe",-,fixed,0.6830426718639023,,,DAMODARAN_WACC_2026,sourced,"Europe, Oil/Gas Distribution: D/V 0.406"
+debt_margin_pipe,"project debt margin over sovereign, pipe",1/yr,triangular,0.015,0.008,0.025,,judgement,project-finance spread over sovereign
+beta_u_hvdc,"unlevered beta, hvdc",-,fixed,0.3687908978841821,,,DAMODARAN_WACC_2026,sourced,"Europe, Utility (General): levered beta 0.637, D/V 0.479, tax 0.209"
+de_hvdc,"debt/equity, hvdc",-,fixed,0.9178544578609019,,,DAMODARAN_WACC_2026,sourced,"Europe, Utility (General): D/V 0.479"
+debt_margin_hvdc,"project debt margin over sovereign, hvdc",1/yr,triangular,0.012,0.008,0.02,,judgement,regulated-asset project finance
+beta_u_ccgt,"unlevered beta, ccgt",-,fixed,0.4198421705303087,,,DAMODARAN_WACC_2026,sourced,"Europe, Power: levered beta 0.617, D/V 0.376, tax 0.223"
+de_ccgt,"debt/equity, ccgt",-,fixed,0.6037849324405598,,,DAMODARAN_WACC_2026,sourced,"Europe, Power: D/V 0.376"
+debt_margin_ccgt,"project debt margin over sovereign, ccgt",1/yr,triangular,0.015,0.008,0.025,,judgement,
+wacc_re_GR,"real after-tax WACC for renewables, GR",1/yr,triangular,0.0585,0.04,0.065,IRENA_RPGC2025_DATA,sourced,"IRENA 2025 Table A2 (PV 5.77%, onshore 5.97%) weighted 60/40"
+wacc_re_IL,"real after-tax WACC for renewables, IL",1/yr,triangular,0.041,0.04,0.07,IRENA_RPGC2025_DATA,sourced,"IRENA 2025 Table A2, solar PV (Israel modeled as all solar)"
+wacc_re_EG,"real after-tax WACC for renewables, EG",1/yr,triangular,0.136,0.07,0.155,IRENA_RPGC2025_DATA;A:PPA_EG_AMUNET_AMEA_505MW;A:PPA_EG_SUEZWIND_ACWA_1100MW,judgement,"mode IRENA 2025 Table A2 (PV 13.38%, onshore 13.68%) weighted 27/73; low = WACC implied by DFI-backed PPAs (USD 28-30/MWh wind); high about +2pp"
+wacc_re_CY,"real after-tax WACC for renewables, CY",1/yr,triangular,0.0863,0.0763,0.1013,IRENA_RPGC2025_DATA,unused,not used by the option chains (share 0 or country not a source)
+wacc_re_TR,"real after-tax WACC for renewables, TR",1/yr,triangular,0.1047,0.0947,0.1197,IRENA_RPGC2025_DATA,unused,not used by the option chains (share 0 or country not a source)
+em_capex,EastMed pipeline capex (incl. Cyprus/Crete legs),EUR2025,triangular,6310755000.0,5364141750.0,7257368249.999999,A:EM_CAPEX_IR2023;A:EM_CAPEX_ACCURACY,sourced,"IGI Poseidon investment request May 2023, FEED +/-15%; EU perimeter (~1,300 km offshore + ~500 km onshore), excl. Poseidon; overrun separate"
+em_capacity_bcm,EastMed design capacity,bcm/yr,fixed,10.0,,,A:EM_CAP_INITIAL;A:EM_CAP_NORTHERN_IR2023,sourced,initial design; 12 bcm/y southern-line variant in sensitivity
+em_util0,initial utilisation,-,triangular,0.85,0.7,0.95,,judgement,anchored by non-binding market test 10.3 bcm/y (A:EM_MKT_TEST_2023)
+em_fuel_pct,"compression fuel use, share of throughput",-,triangular,0.035,0.02,0.05,A:EM_LEN_TOTAL_2023,judgement,"compression fuel for ~1,900 km incl. 3,000 m depth"
+em_build,planned construction period,yr,triangular,5.0,4.0,6.0,A:EM_TL_03;A:EM_COD_IR2023,judgement,EPCI 2020 and 2023 request imply ~4-6 yr FID-to-COD
+em_life,economic life,yr,fixed,30.0,,,,design,economic life
+em_fom_pct,"fixed O&M, share of capex per year",1/yr,triangular,0.012,0.008,0.02,,judgement,offshore pipeline O&M share of capex
+gasdem_plateau,years at full utilisation before EU demand decline bites,yr,triangular,5.0,0.0,10.0,EU:EU_GASDEM_TYNDP2024;EU:EU_GASDEM_SWD2024,judgement,EU extra-EU import need 276-287 bcm (2030) -> 129-132 bcm (2040)
+gasdem_decline,utilisation decline rate after plateau,1/yr,triangular,0.075,0.03,0.1,EU:EU_GASDEM_TYNDP2024,sourced,-54% 2030-2040 implies ~7.5%/yr
+gasdem_floor,utilisation floor,-,triangular,0.35,0.2,0.5,EU:EU_GASDEM_SWD2024,judgement,
+lng_toll_usd,liquefaction tolling fee (brownfield Idku/Damietta),USD/MMBtu,triangular,1.4,1.0,2.5,A:LNG_SEGAS_CRONOS_TOLLING;A:LNG_EG_TRANSIT_TARIFF_CRONOS;CY:CY_CRONOS_TOLLING_FEE,sourced,Damietta tolling ~USD 1.0 + Egyptian transit <0.5; upper allows renegotiation/new train
+lng_liq_loss,"liquefaction fuel and losses, share of feed",-,triangular,0.09,0.06,0.14,WEB:LNG_FUEL_SHARE,sourced,liquefaction fuel 6-14% of feed (8-10% typical)
+lng_ship_usd,LNG shipping Egypt-Greece,USD/MMBtu,triangular,0.25,0.1,0.6,WEB:LNG_SHIP_CALC,judgement,~6-7 day round trip Damietta-Greece; charter USD 20-150k/day; ~3.7m MMBtu cargo
+lng_ship_loss,boil-off on voyage,-,triangular,0.003,0.002,0.006,WEB:LNG_BOR,sourced,"boil-off 0.10-0.15%/day, ~1.5 days laden plus heel"
+lng_regas_eur,Greek regasification tariff,EUR/MWh,triangular,0.6,0.22,1.5,WEB:ARGUS_DESFA_2025,judgement,Revithoussa 2025 ~EUR 0.30/MWh (50% socialised); full cost and commercial FSRU higher
+lng_regas_loss,regasification fuel,-,fixed,0.01,,,,judgement,regas fuel ~1%
+u_lng_tech,technical unavailability of the LNG chain,-,triangular,0.01,0.005,0.02,,judgement,
+eg_base_year,base year of the Egypt balance,year,fixed,2025,,,EI_2026_GAS,sourced,latest EI data year
+eg_prod0,Egypt gas production in the base year,bcm,fixed,40.8,,,EI_2026_GAS,sourced,2025 (EI 2026)
+eg_prod_decline,decline of legacy production,1/yr,triangular,-0.11923992999587674,-0.1681260945709282,-0.03,EI_2026_GAS,sourced,mode = 2021-2025 CAGR of legacy output; low = steepest annual decline 2022-2025; high = -3%/yr stabilisation
+eg_add_level,new-field production at plateau,bcm/yr,triangular,4.0,0.0,10.0,EG:EG_PROD,judgement,new-field additions; Kpler forecasts 37.3 bcm in 2026 (continued decline)
+eg_add_start,new-field ramp start,year,fixed,2026.0,,,,judgement,
+eg_add_end,new-field ramp end,year,triangular,2031.0,2028.0,2034.0,,judgement,
+eg_prod_floor,floor of legacy production,bcm/yr,fixed,10.0,,,,judgement,floor of legacy output
+eg_dem0,Egypt gas consumption in the base year,bcm,fixed,61.5,,,EI_2026_GAS,sourced,2025 (EI 2026)
+eg_dem_growth,Egypt demand growth,1/yr,triangular,0.02,0.0,0.035,EI_2026_GAS,sourced,2024->2025 +2.8%; 2019-2025 avg +0.7%/yr
+eg_il_flow0,Israeli pipeline supply to Egypt in the base year,bcm,fixed,8.9,,,IL:IL_EXP_EGYPT,sourced,Israeli exports to Egypt 2025 (Ministry of Energy)
+eg_il_flow_max,Israeli supply to Egypt at plateau (domestic contracts),bcm/yr,triangular,14.0,10.0,17.0,IL:IL_EXPORT_POLICY;IL:IL_EXPORT_ROUTE_CAP;IL:IL_NITZANA,sourced,Leviathan 2nd increment 11.9-12.9 bcm/y from 2029 + Tamar ~3; capped by EMG 8.5 + Jordan route + Nitzana 6
+eg_il_ramp_end,year Israeli supply reaches plateau,year,triangular,2030.0,2029.0,2032.0,IL:IL_LEV_EXPAND;IL:IL_NITZANA,sourced,Leviathan expansion FID Jan 2026; Nitzana 2028
+eg_cy_level,Cypriot gas to Egypt at plateau,bcm/yr,triangular,6.0,1.0,8.3,CY:CY_APHRODITE_OFFTAKE_DCQ;CY:CY_CRONOS_EGYPT_DOMESTIC_SHARE,sourced,Aphrodite DCQ 700 MMscf/d (~7.2 bcm/y) to EGAS + ~1/5 of Cronos domestic
+eg_cy_start,first Cypriot gas to Egypt,year,triangular,2030.0,2028.0,2032.0,CY:CY_CRONOS_FIRST_GAS;CY:CY_APHRODITE_FIRST_GAS,sourced,
+o2_volume_bcm,Levant volume contracted for re-export via Egypt,bcm/yr,fixed,10.0,,,,design,set equal to EastMed capacity for like-for-like comparison
+eg_divert_theta,propensity to divert export gas to the domestic market,-,triangular,0.65,0.2,1.0,A:LNG_EG_EXP_2025;A:LNG_EG_IMP_2025;C:EGYPT_LNG_IDKU_HIST;A:LNG_SEGAS_CRONOS_TOLLING;CY:CY_CRONOS_COMMERCIAL_AGREEMENTS;WEB:UFG_ICSID_2018,judgement,"mode = 0.38 x 0.25 (Cronos-type tolled, IOC-owned gas in a pipeline bypassing the grid, ~3.8 of 10 bcm) + 0.62 x 0.9 (gas through the national grid); high = 2012 Damietta feed-gas cut (ICSID ARB/14/4) and 2024-25 export halt; low = full ring-fence"
+o2_start_year,first year of O2 exports,year,fixed,2029.0,,,CY:CY_CRONOS_FIRST_GAS,sourced,Cronos LNG via Damietta from 2028
+o2_life,O2 contract life,yr,fixed,20.0,,,,design,contract life
+ccgt_capex,CCGT overnight capex,EUR/kW,triangular,927.2722,547.44999,1450.0,A:GEN_CCGT_CAPEX_ERAA25_DEFAULT;A:GEN_CCGT_CAPEX_ERAA25_GR;A:GEN_CCGT_CAPEX_DEA_2020;A:GEN_CCGT_CAPEX_US_IRENA25,sourced,ERAA 2025 default (mode) and Greece (low); high reflects 2025-26 turbine shortage
+ccgt_fom,CCGT fixed O&M,EUR/kW-yr,triangular,31.0,12.170319999999998,36.980619999999995,A:GEN_CCGT_FOM_ERAA25_DEFAULT;A:GEN_CCGT_FOM_ERAA25_GR;A:GEN_CCGT_FOM_DEA_2020,sourced,
+ccgt_vom,CCGT variable O&M,EUR/MWh,triangular,2.3687199999999997,2.0,5.737679999999999,A:GEN_CCGT_VOM_ERAA25_DEFAULT;A:GEN_CCGT_VOM_DEA_2020,sourced,
+ccgt_eta_lhv,"CCGT efficiency, LHV",-,triangular,0.6,0.58,0.62,A:GEN_CCGT_EFF_DEA_2020;A:GEN_CCGT_EFF_DEA_2030;A:GEN_CCGT_EFF_IEANEA20_IT,sourced,
+ccgt_cf,CCGT capacity factor,-,triangular,0.4,0.3,0.55,EMBER_2026_10,sourced,Greek gas fleet 2025: 23.3 TWh / ~7.0 GW = ~0.38
+ccgt_life,CCGT life,yr,fixed,25.0,,,A:GEN_CCGT_LIFE_ERAA25_DEFAULT;A:GEN_CCGT_LIFE_DEA,sourced,
+ccgt_build,CCGT build period,yr,fixed,2.5,,,A:GEN_CCGT_CONSTR_DEA,sourced,
+hvdc_conv_loss,loss per converter station,-,triangular,0.01,0.007,0.015,A:HVDC_CONV_LOSS_VSC_NGFACT;A:HVDC_CONV_LOSS_MMC_TOSATTO,sourced,MMC-VSC ~1% per station
+hvdc_cable_loss,HVDC cable loss per 1000 km,-,triangular,0.017,0.01,0.035,A:HVDC_CABLE_LOSS_CALC_GSI;A:HVDC_LINK_LOSS_MEAS_VIKING_2024;A:HVDC_CABLE_LOSS_NORNED_600MW_JRC,sourced,"per 1,000 km at rated power; calc 1.4-2.1%; measured links imply lower; NorNed-type upper"
+hvdc_life,HVDC asset life,yr,fixed,40.0,,,A:HVDC_CABLE_LIFE_DEA;A:HVDC_LIFE_NGFACT,sourced,
+hvdc_fom_pct,"HVDC fixed O&M, share of capex per year",1/yr,triangular,0.02,0.012,0.025,A:HVDC_OM_CABLE_ONDP2024;A:HVDC_OM_CONV_ONDP2024,sourced,"TYNDP 2024: cable 2.5%, converter 1.5% of capex"
+capex_O3_GSI,GSI capex Israel-Cyprus-Crete,EUR2025,triangular,3102818999.9999995,2792537099.9999995,3878523749.9999995,A:GSI_CAPEX_CBN24_TOTAL;A:GSI_CAPEX_IL_CY;C:GSI_ACER_COMM_DATE,sourced,"Crete-Cyprus 1,939 MEUR (2024) + Israel-Cyprus 1,100 MEUR (TYNDP 2024); high reflects +23% ACER-reported escalation"
+build_O3_GSI,GSI planned build period,yr,triangular,5.5,4.0,7.0,A:GSI_TL_04,sourced,"Nexans contract Jul 2023: Pole 1 2028, Pole 2 2029"
+uf_O3_GSI,GSI utilisation for Israeli solar exports,-,triangular,0.3,0.22,0.45,PVGIS_SARAH3;IL:IL_DOM_CONS,judgement,Israeli solar CF 0.21-0.28 x DC/AC oversizing; storage raises upper bound
+capex_O4a_GREGY,GREGY capex,EUR2025,triangular,4200000000.0,3933038000.0000005,5200000000.0,A:GREGY_CAPEX_PMI;A:HVDC_GREGY_TYNDP2024_INV,sourced,"3,569 MEUR unrevised c.2022 (x1.102 = low); 2025-26 reporting ~4.0-4.2 bn; ACER UIC parametric ~4.1 bn"
+build_O4a_GREGY,GREGY build period,yr,triangular,6.0,5.0,8.0,A:GREGY_FICHE_SCHED,judgement,
+uf_O4a_GREGY,GREGY utilisation (Egyptian wind-solar hybrid),-,triangular,0.67,0.55,0.84,A:GREGY_RES;A:GREGY_CAP,judgement,8.5 GW wind+PV behind 3 GW: synthetic hourly profiles give UF 0.64-0.70 with 19-34% of output sold in Egypt (authors' calculation); high = promoter ~22 TWh/yr with storage; same portfolio design assumed for EuroAfrica
+capex_O4b_EuroAfrica,EuroAfrica capex,EUR2025,triangular,3400000000.0,2987500000.0,4200000000.0,A:EA_CAPEX;A:GSI_CAPEX_CBN24_TOTAL,sourced,"stage 1 (1,000 MW) EUR 2.5bn c.2021 (x1.195 = low); mode/high bounded by GSI 2024 unit costs"
+build_O4b_EuroAfrica,EuroAfrica build period,yr,triangular,6.0,5.0,8.0,A:EA_STATUS,judgement,
+uf_O4b_EuroAfrica,EuroAfrica utilisation,-,triangular,0.67,0.55,0.84,A:GREGY_RES;A:GREGY_CAP,judgement,8.5 GW wind+PV behind 3 GW: synthetic hourly profiles give UF 0.64-0.70 with 19-34% of output sold in Egypt (authors' calculation); high = promoter ~22 TWh/yr with storage; same portfolio design assumed for EuroAfrica
+il_solar_share,il solar share of energy,-,fixed,1.0,,,,design,Israeli exports assumed solar (limited wind resource)
+il_wind_share,il wind share of energy,-,fixed,0.0,,,,design,
+il_solar_cf,il solar capacity factor,-,triangular,0.2414626141552511,0.2065479452054794,0.2781860730593607,PVGIS_SARAH3,sourced,"2 sites; fixed-optimal mean 0.210, tracker mean 0.273"
+il_solar_capex,il solar capex,EUR/kW,triangular,590.2654867256638,500.0,728.3185840707965,A:GEN_PV_CAPEX_GLOBAL_IRENA25;A:GEN_PV_CAPEX_EUROPE_IRENA25_SEC,judgement,no IRENA Israel value; global (mode) to Europe (high)
+il_solar_fom,il solar fixed O&M,EUR/kW-yr,triangular,14.0,10.0,18.31858407079646,A:GEN_PV_FOM_OECD_IRENA25,sourced,
+il_wind_cf,il wind capacity factor,-,triangular,0.25,0.2,0.3,,unused,not used by the option chains (share 0 or country not a source)
+il_wind_capex,il wind capex,EUR/kW,triangular,1400,1200,1700,,unused,not used by the option chains (share 0 or country not a source)
+il_wind_fom,il wind fixed O&M,EUR/kW-yr,triangular,35,28,45,,unused,not used by the option chains (share 0 or country not a source)
+eg_solar_share,eg solar share of energy,-,fixed,0.27,,,A:GREGY_RES,design,complement of eg_wind_share
+eg_wind_share,eg wind share of energy,-,fixed,0.73,,,A:GREGY_RES,design,GREGY portfolio 5.4 GW wind + 3.1 GW PV (Sep 2026) x mode CFs = 73% of energy from wind; same portfolio assumed for EuroAfrica
+eg_solar_cf,eg solar capacity factor,-,triangular,0.244,0.21,0.299,PVGIS_SARAH3;A:CF_EG_BENBAN_SCATEC_390MW,sourced,"PVGIS Sidi Barrani: fixed-optimal 0.210, single-axis 0.278 (mode = midpoint); high = Benban single-axis 0.299"
+eg_solar_capex,eg solar capex,EUR/kW,triangular,590.2654867256638,450.0,740.70796460177,A:GEN_PV_CAPEX_GLOBAL_IRENA25;A:GEN_PV_CAPEX_AFRICA_IRENA25_SEC,sourced,"global (mode), Africa (high); Egyptian tariffs USD 20-27/MWh suggest low end"
+eg_solar_fom,eg solar fixed O&M,EUR/kW-yr,triangular,9.734513274336283,8.0,13.0,A:GEN_PV_FOM_NONOECD_IRENA25,sourced,
+eg_wind_cf,eg wind capacity factor,-,triangular,0.38,0.3,0.525,WEB:SHATA_2008_NWCOAST;A:GREGY_RES;A:CF_EG_SUEZWIND_ACWA_1100MW;A:CF_EG_WESTBAKR_250MW;A:CF_EG_RSWE_GOS2_500MW,judgement,"NW coast 450-555 W/m2 at 100 m (Shata et al. 2008) -> 7.3-8.3 m/s -> net CF 0.30-0.45 with a generic modern power curve (rated 10.5-11.5 m/s, 12% losses; authors' calculation); high = Gulf of Suez lender-stated 0.525"
+eg_wind_capex,eg wind capex,EUR/kW,triangular,863.7168141592921,780.0,1100.0,A:GEN_WIND_CAPEX_GLOBAL_IRENA25,judgement,no IRENA Egypt value
+eg_wind_fom,eg wind fixed O&M,EUR/kW-yr,triangular,33.6283185840708,25.0,40.0,A:GEN_WIND_FOM_OTHERNONOECD_IRENA25,sourced,
+gr_solar_share,gr solar share of energy,-,fixed,0.6,,,,design,Greek new-build mix
+gr_wind_share,gr wind share of energy,-,fixed,0.4,,,,design,
+gr_solar_cf,gr solar capacity factor,-,triangular,0.1941339421613394,0.1645901826484018,0.2242077625570776,PVGIS_SARAH3,sourced,"3 sites; fixed-optimal mean 0.169, tracker mean 0.219"
+gr_solar_capex,gr solar capex,EUR/kW,triangular,728.3185840707965,590.2654867256638,850.0,A:GEN_PV_CAPEX_EUROPE_IRENA25_SEC;A:GEN_PV_CAPEX_GLOBAL_IRENA25,sourced,"IRENA Europe 2025 (mode), global (low)"
+gr_solar_fom,gr solar fixed O&M,EUR/kW-yr,triangular,14.0,10.03,18.31858407079646,A:GEN_PV_FOM_DEA_2025;A:GEN_PV_FOM_OECD_IRENA25,sourced,
+gr_wind_cf,gr wind capacity factor,-,triangular,0.28,0.25,0.32,EMBER_2026_10,sourced,Greek fleet 2023-25 realised 0.25-0.27; new turbines higher
+gr_wind_capex,gr wind capex,EUR/kW,triangular,1170.4,863.7168141592921,1452.3195999999998,A:GEN_WIND_CAPEX_EUREF20_VHIGH2030;A:GEN_WIND_CAPEX_GLOBAL_IRENA25;A:GEN_WIND_CAPEX_DEA_2025,sourced,"EU REF2020 very-high-resource (2015 EUR x1.33), IRENA global, DEA"
+gr_wind_fom,gr wind fixed O&M,EUR/kW-yr,triangular,30.0,21.320140000000002,39.823008849557525,A:GEN_WIND_FOM_DEA_2025;A:GEN_WIND_FOM_OTHEROECD_IRENA25,sourced,
+solar_life,solar PV life,yr,fixed,25.0,,,A:GEN_PV_LIFE_IRENA25,sourced,"IRENA LCOE economic life, consistent with IRENA WACC"
+wind_life,onshore wind life,yr,fixed,25.0,,,A:GEN_WIND_LIFE_IRENA25,sourced,
+solar_build,solar build period,yr,fixed,1.0,,,,judgement,
+wind_build,wind build period,yr,fixed,2.0,,,,judgement,
+gr_curtail,curtailment share for Greek renewables,-,triangular,0.075,0.035,0.15,WEB:RICARDO_2025_CURTAIL;WEB:PVMAG_2026_CURTAIL,sourced,"2024 3.4%, 2025 ~7-7.6%, 2026 projected ~12%"
+delay_pipe,"reference-class delay, offshore pipelines",yr,delaymix,1.67,0.4,0.7,C:ACER22_GAS_DELAY_MONTHS;C:ACER22_GAS_RESCHED_MONTHS,judgement,gas PCIs: mean delay 20 months
+delay_hvdc,"reference-class delay, subsea HVDC",yr,delaymix,1.5,0.4,0.6,C:HVDC_WL_DELAY;C:HVDC_VIKING_DELAY;C:ACER22_ELEC_DELAY_MONTHS,sourced,P4: 40% no material delay; else median 18 months
+overrun_pipe,"reference-class cost overrun, offshore pipelines",-,shiftlognorm,0.2,-0.05,0.9,C:OVR_BOOK_PIPE;C:OVR_BOOK_OILGAS;C:OVR_OGM_MEAN,sourced,"P2: median +15%, mean +25%, P95 +83%"
+overrun_hvdc,"reference-class cost overrun, subsea HVDC",-,shiftlognorm,0.13,-0.05,0.8,C:OVR_TX_MEAN;C:OVR_BOOK_TX;C:HVDC_IFA2_COST,sourced,"P1: median +8%, mean +12.9%, P95 +43.5%"
+pcancel_pipe,"post-FID abandonment probability, pipelines",-,triangular,0.02,0.0,0.06,GEM_GGIT_2025,sourced,0 of 65 post-FID gas pipelines in EU/ME/AF cancelled or shelved
+pcancel_hvdc,"post-FID abandonment probability, HVDC",-,triangular,0.03,0.0,0.1,C:ACER14_STATUS,sourced,post-FID abandonment; ACER 2014: 3.8% of components cancelled in ~2 yr
+phi_sunk,share of PV cost sunk at abandonment,-,triangular,0.25,0.1,0.5,,judgement,
+pi_contested,WACC premium at full contested exposure,1/yr,triangular,0.01,0.003,0.025,C:MIGA_PREMIUM_AVG;C:PRI_LATAM_2021;C:P15,judgement,PRI ~1%/yr of insured amount; incremental to sovereign CRP (Bekaert et al. 2016 double counting)
+delta_contested,extra delay at full contested exposure,yr,triangular,3.0,0.5,8.0,C:HVDC_ACER_SLIP_SUBSEA;C:P5,sourced,"subsea PCIs slip mean 4.6 yr vs generic 2.3 yr; GSI +6.1, Hadera-Kofinou +9.1"
+p_contested,extra abandonment probability at full exposure,-,triangular,0.1,0.03,0.2,C:P6a,judgement,P6a: contested/unresolved finance mean 20% vs 10% uncontested
+kappa_cable,legal-regime factor for cables vs pipelines (UNCLOS 79(3)),-,triangular,0.6,0.3,1.0,,judgement,"UNCLOS 79(3) asymmetry; Israel, Turkiye and Libya non-parties"
+lam_geo,"annual probability of damaging interference, fully contested route",1/yr,triangular,0.05,0.0,0.2,C:P9,judgement,Baltic/Red Sea precedents; no East Med physical-damage case (obstruction only)
+mttr_geo,outage per interference event,days,triangular,180.0,60.0,270.0,C:ESTLINK2_DEC24;C:BALTICCONNECTOR_2023,sourced,Baltic outages 6-7 months
+il_shutdown_rate,conflict shutdowns of Israeli offshore fields per year,1/yr,triangular,0.6,0.1,1.3,C:ISRAEL_HAZARD;C:P13a,judgement,3 episodes in 36 months (crisis regime) = upper; long-run lower
+il_shutdown_days,duration of an Israeli field shutdown,days,triangular,28.0,12.0,45.0,C:TAMAR_OCT2023;C:LEV_KAR_JUN2025;C:LEV_2026;C:KAR_2026,sourced,
+origin_curtail_IL,policy curtailment of Israeli power exports beyond war shutdowns,-,triangular,0.01,0.0,0.03,,judgement,war shutdowns are applied to Israeli power exports as to gas (il_shutdown_*); this is the residual policy cut
+u_tech_hvdc,technical unavailability of a subsea HVDC link,-,triangular,0.06,0.03,0.11,A:HVDC_AVAIL_NORDIC_ALL_2024;A:HVDC_AVAIL_NORNED_2024;C:SYS_AVAIL_NSL,sourced,"ENTSO-E 2024: Nordic/Baltic links 11%, NorNed 11.2%; NSL model 7.1%"
+u_tech_pipe,technical unavailability of an offshore gas pipeline,-,triangular,0.02,0.005,0.04,C:PARLOC_STEEL_GT16;C:P12,judgement,"LOC 6e-5/km-yr x 1,300 km x 180 d repair ~ 3.8% upper"
+p_il_halt,share of shutdown episodes that halt exports,-,fixed,0.67,,,C:P13c,sourced,2 of 3 episodes
+il_export_cut,expected policy curtailment of Israeli exports,-,triangular,0.03,0.0,0.12,IL:IL_EXPORT_POLICY,judgement,Dec 2025 permit: Commissioner may cut up to 60% of maximum daily export from 2036
+eg_divert_theta_el,propensity to divert exported renewable power to the domestic market,-,triangular,0.2,0.0,0.65,WEB:GG_GREGY;WEB:AGBI_EG_POWER_EXPORTS_2025,judgement,dedicated RES under bespoke PPAs but connected through national interconnection infrastructure; no report of Egypt curtailing its power exports during 2023-24 load-shedding while gas exports were halted; high = gas mode (symmetric)
+eg_cable_cod,first year of Egyptian power exports (diversion window start),year,fixed,2031.0,,,A:GREGY_FICHE_SCHED;A:GREGY_STATUS_2026,sourced,GREGY fiche commissioning 06/2031; also used for EuroAfrica (stage 1 slipped to 2029+)
+ccgt_capex_share,share of new-build CCGT capex charged to gas options,-,fixed,1.0,,,,design,"1 = new plant (like-for-like with cables, which include new generation); 0 = existing Greek fleet (sensitivity)"
+cbam_share_default,share of cable imports charged CBAM at default values,-,fixed,0.0,,,WEB:CBAM_REG_2023_956;WEB:CBAM_REVIEW_2025,design,"0 = dedicated renewable PPAs meet the Annex IV point 5 actual-emissions conditions (PPA with the producer, direct connection or no congestion, firm nomination of interconnection capacity, and the further conditions of point 5); scenarios 0.5 and 1"
+cbam_ef_EG,CBAM default emission factor for electricity imported from Egypt,tCO2/MWh,fixed,0.442,,,WEB:CBAM_IR_2025_2621,sourced,"Implementing Regulation (EU) 2025/2621, Annex III (IEA-based CO2 factor of fossil generation; recital 8); value re-read on 9 Oct 2026 from the official OJ PDF and the consolidated text (02025R2621-20260101) with word-coordinate pairing: the 8 Oct reading (1.148) had paired each value with the next row (1.148 is Bosnia and Herzegovina); grid-average alternative 0.387 (Annex II) used in the grid-average scenario; Ember 2025: fossil-only 0.644, grid 0.557 tCO2e/MWh"
+cbam_ef_IL,CBAM default emission factor for electricity imported from Israel,tCO2/MWh,fixed,0.48,,,WEB:CBAM_IR_2025_2621,sourced,"Implementing Regulation (EU) 2025/2621, Annex III; re-read 9 Oct 2026 with word-coordinate pairing (the 8 Oct reading, 0.440, is the Georgia row); grid-average alternative 0.443 (Annex II; the earlier 0.469 is the Japan row); Ember 2025: fossil-only 0.583, grid 0.493 tCO2e/MWh"

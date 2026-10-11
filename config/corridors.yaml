@@ -1,0 +1,118 @@
+O1_EastMed:
+  subsea_km: 1300
+  mw: null
+  n_conv: 0
+  weights:
+    IL: 0.0228
+    CY: 0.2933
+    GR: 0.6839
+  x_contested: 0.3645
+  status: 'GIS: scripts/03b_routes.py; nodes A:EM_LANDFALL_CRETE LF2, coast at the
+    Atherinolakkos power-station site (OSM feature; ESIA NTS: stations adjacent to
+    the PPC plant ~800 m NW of LF2; medium); A:EM_LANDFALL_CYPRUS LF1 Vasilikos industrial
+    area, coast at the power-station site (OSM feature; medium); A:EM_LANDFALL_PELOPONNESE
+    LF3, 300 m N of Agios Fokas (OSM place; medium); B:EASTMED_01_LEVIATHAN (medium)'
+  x_contested_range:
+  - 0.359
+  - 0.37
+  waypoints:
+  - - 33.61722
+    - 33.16778
+  - - 33.29
+    - 34.72
+  - - 26.145
+    - 35.0
+  - - 26.32
+    - 35.33
+  - - 25.0
+    - 35.55
+  - - 24.0
+    - 35.65
+  - - 23.058
+    - 36.6
+  src_len: A:EM_LEN_EU_OFFSHORE
+O3_GSI:
+  subsea_km: 1222
+  mw: 1000
+  n_conv: 2
+  weights:
+    IL: 0.1419
+    CY: 0.316
+    GR: 0.5421
+  x_contested: 0.375
+  status: 'GIS: scripts/03b_routes.py; nodes B:GSI_01_HADERA_IL, Hadera shoreline
+    (coast geocode; converter ''in the Hadera area'' per ADMIE 13.08.2026, 2 km onshore
+    in Israel per TED notice 70566-2018 (OJ S 32/2018); site not published; low);
+    B:GSI_02_KOFINOU_CY (medium); B:GSI_03_KORAKIA_LANDING_CRETE, Union-list landing
+    Korakia (OSM feature: Korakia terminal station, Fodele; medium); documented survey
+    area (B:GSI_05, A:GSI_TL_10); point geo'
+  x_contested_range:
+  - 0.375
+  - 0.375
+  waypoints:
+  - - 34.87
+    - 32.44
+  - - 33.39167
+    - 34.82583
+  - - 26.55
+    - 35.42
+  - - 24.9316
+    - 35.4042
+  src_len: A:GSI_LEN_CY_CRETE + A:GSI_LEN_IL_CY; A:GSI_CAP_MW (current phase)
+  origin: IL
+O4a_GREGY:
+  subsea_km: 954
+  mw: 3000
+  n_conv: 2
+  weights:
+    GR: 0.8192
+    EG: 0.1808
+  x_contested: 0.186
+  status: 'GIS: scripts/03b_routes.py; nodes A:GREGY_LAND Nea Makri / Mesogeia (geocoded,
+    town); A:GREGY_LAND Sidi Barrani shore, Reg. 2026/764 (OSM place on the coast;
+    medium); documented survey area (B:GSI_05, A:GSI_TL_10); point geocoded mid-strait'
+  x_contested_range:
+  - 0.163
+  - 0.209
+  waypoints:
+  - - 25.926
+    - 31.611
+  - - 23.9
+    - 35.0
+  - - 23.25
+    - 35.85
+  - - 24.03
+    - 37.65
+  - - 24.15
+    - 37.9
+  - - 23.99
+    - 38.08
+  src_len: A:GREGY_LEN; A:GREGY_CAP (two bipoles)
+  origin: EG
+O4b_EuroAfrica:
+  subsea_km: 1396
+  mw: 1000
+  n_conv: 2
+  weights:
+    CY: 0.3521
+    GR: 0.4446
+    EG: 0.2034
+  x_contested: 0.335
+  status: 'GIS: scripts/03b_routes.py; nodes A:EA_ROUTE Kafr El Sheikh/Burullus coast
+    (geocoded, area); B:GSI_02_KOFINOU_CY (medium); B:GSI_03_KORAKIA_LANDING_CRETE,
+    Union-list landing Korakia (OSM feature: Korakia terminal station, Fodele; medium);
+    documented survey area (B:GSI_05, A:GSI_TL_10); point geocoded mid-strait'
+  x_contested_range:
+  - 0.335
+  - 0.335
+  waypoints:
+  - - 30.9
+    - 31.6
+  - - 33.39167
+    - 34.82583
+  - - 26.55
+    - 35.42
+  - - 24.9316
+    - 35.4042
+  src_len: A:EA_LEN; A:EA_CAPEX stage 1 = half of 2,000 MW
+  origin: EG

@@ -1,0 +1,115 @@
+scenario,option,mean,p5,p95,maritime,geopolitical,p_cheapest_import,description
+base,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.09125,central assumptions
+base,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.01415,central assumptions
+base,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0001,central assumptions
+base,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.8945,central assumptions
+base,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,central assumptions
+base,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,central assumptions
+no_contested_premium,O1_EastMed,139.32839798676,121.37790738278278,159.28492776226304,1.9938822823702809,7.237332219645683,0.0925,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+no_contested_premium,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0108,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+no_contested_premium,O3_GSI,185.613949198612,146.37914954647655,235.45797534457142,4.6992192212914965,8.15281472559884,0.0002,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+no_contested_premium,O4a_GREGY,116.72786161246428,96.40823409889623,140.81305943872937,0.8444422894520869,16.935378144965348,0.8965,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+no_contested_premium,O4b_EuroAfrica,162.05479282644845,135.56235113396767,193.97938599679634,2.858936534368392,18.833744946775997,0.0,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+no_contested_premium,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,contested-waters WACC premium = 0 (no double counting with sovereign CRP)
+kappa_1,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.09445,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+kappa_1,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0146,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+kappa_1,O3_GSI,196.67167960942066,153.7389570757401,251.60775785498106,15.756949632100143,19.21054513640749,0.0001,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+kappa_1,O4a_GREGY,118.07911818958296,97.55495801611127,142.39214744517233,2.1956988665707637,18.286634722084028,0.89085,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+kappa_1,O4b_EuroAfrica,168.1062309262437,140.15892792132848,201.97883769085027,8.91037463416364,24.885183046571242,0.0,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+kappa_1,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,no legal asymmetry: cables face pipeline-level contested delay and abandonment
+high_interference,O1_EastMed,141.60316719437145,123.33839943457743,161.97653025063966,4.268651489981729,9.51210142725713,0.0839,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+high_interference,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.01655,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+high_interference,O3_GSI,195.52026470446933,153.3305343326897,249.18749922542048,14.605534727148813,18.05913023145616,0.0001,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+high_interference,O4a_GREGY,118.14048053505819,97.6718029050014,142.40799382571916,2.2570612120459956,18.34799706755926,0.89945,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+high_interference,O4b_EuroAfrica,167.2544510400921,139.65606181476952,200.63666968723302,8.058594748012046,24.033403160419653,0.0,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+high_interference,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Baltic-type interference hazard: 0.2 damaging events/yr on a fully contested route
+no_egypt_diversion,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.0,Egypt never diverts gas or power exports (full ring-fence)
+no_egypt_diversion,O2_LNG_Egypt,128.61560454421877,113.03766449195518,145.16804329525266,0.0,4.024349087462572,0.03225,Egypt never diverts gas or power exports (full ring-fence)
+no_egypt_diversion,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0,Egypt never diverts gas or power exports (full ring-fence)
+no_egypt_diversion,O4a_GREGY,101.75573509481949,85.1952342997101,119.86388248056055,1.9632516273205511,1.9632516273205511,0.96775,Egypt never diverts gas or power exports (full ring-fence)
+no_egypt_diversion,O4b_EuroAfrica,150.75431980638797,126.21092366034352,180.7195802062745,7.533271926715509,7.533271926715509,0.0,Egypt never diverts gas or power exports (full ring-fence)
+no_egypt_diversion,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Egypt never diverts gas or power exports (full ring-fence)
+symmetric_egypt_diversion,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.37325,power exports diverted with the same propensity as gas
+symmetric_egypt_diversion,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0384,power exports diverted with the same propensity as gas
+symmetric_egypt_diversion,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.00325,power exports diverted with the same propensity as gas
+symmetric_egypt_diversion,O4a_GREGY,136.45253496507357,111.68585529749873,168.56442973533558,1.710812406809894,36.66005149757463,0.5851,power exports diverted with the same propensity as gas
+symmetric_egypt_diversion,O4b_EuroAfrica,184.99903102553216,153.3458300479384,224.83666276779977,7.0819007685154505,41.77798314585971,0.0,power exports diverted with the same propensity as gas
+symmetric_egypt_diversion,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,power exports diverted with the same propensity as gas
+egypt_dfi_wacc,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.04395,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+egypt_dfi_wacc,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.00685,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+egypt_dfi_wacc,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+egypt_dfi_wacc,O4a_GREGY,109.30683407965873,88.48574242197472,134.86973507255772,1.9079384611953216,21.345464841519696,0.9492,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+egypt_dfi_wacc,O4b_EuroAfrica,158.06557696867682,130.25346603039125,192.40509161446914,7.436223470711017,26.789924586303894,0.0,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+egypt_dfi_wacc,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Egyptian renewables financed at the DFI-backed PPA level (7% real)
+gulf_of_suez_wind,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.07035,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+gulf_of_suez_wind,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.01045,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+gulf_of_suez_wind,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,5e-05,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+gulf_of_suez_wind,O4a_GREGY,114.70264600800066,94.4893806350445,139.39017484667997,1.8688346239626532,19.157504775520096,0.91915,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+gulf_of_suez_wind,O4b_EuroAfrica,163.4819384382617,135.9613193550489,196.82469792849122,7.36511447490549,24.54920884905897,0.0,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+gulf_of_suez_wind,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Egyptian wind at Gulf of Suez resource (CF mode 0.46)
+correlated_replacement_prices,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.08685,Greek power and TTF replacement prices correlated (rho = 0.8)
+correlated_replacement_prices,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0047,Greek power and TTF replacement prices correlated (rho = 0.8)
+correlated_replacement_prices,O3_GSI,194.1018070174959,152.05708209821034,247.96949740266606,13.195851701294616,16.646284902089434,0.00015,Greek power and TTF replacement prices correlated (rho = 0.8)
+correlated_replacement_prices,O4a_GREGY,117.69995547173308,97.29355109494304,141.75253748788955,1.8473990479911386,17.91308436184087,0.9083,Greek power and TTF replacement prices correlated (rho = 0.8)
+correlated_replacement_prices,O4b_EuroAfrica,166.49111803956848,138.9197995292881,199.9504807267615,7.326124418561592,23.275682517502716,0.0,Greek power and TTF replacement prices correlated (rho = 0.8)
+correlated_replacement_prices,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Greek power and TTF replacement prices correlated (rho = 0.8)
+cbam_half_default,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.31185,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_half_default,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.04605,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_half_default,O3_GSI,217.93748494935912,175.42641771018776,272.04438973280884,12.842685270966346,15.089677886874782,0.0,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_half_default,O4a_GREGY,134.36334397815529,115.64691960374658,156.33877818976512,1.7259531709371623,11.193966167851706,0.6421,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_half_default,O4b_EuroAfrica,183.05721811476698,156.58340110931354,215.2095112789872,7.107391270367596,16.45927589228987,0.0,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_half_default,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,"CBAM: half of cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.6878,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.1023,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O3_GSI,241.76557640387108,197.55002459616233,296.9007047171357,12.490707024406223,13.53109675191575,0.0,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O4a_GREGY,150.9964781980831,131.58284915333442,172.5422923564727,1.605115906659079,4.450206044974903,0.2099,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O4b_EuroAfrica,199.5935516728752,172.71814177364024,231.65332888371105,6.889754276156515,9.618715107593465,0.0,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_default,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,"CBAM: all cable imports charged at the Annex III default values (EG 0.442, IL 0.480 tCO2/MWh)"
+cbam_grid_default,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.6038,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+cbam_grid_default,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0893,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+cbam_grid_default,O3_GSI,238.09207897130057,194.21647229230362,293.0475655891111,12.544970337417576,13.771378010221932,0.0,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+cbam_grid_default,O4a_GREGY,146.8570104057934,127.80497041290467,168.27613896811604,1.6351885289907286,6.128517387772297,0.3069,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+cbam_grid_default,O4b_EuroAfrica,195.47817454302927,168.8237135606129,227.55317203054233,6.943917329014474,11.321117112834651,0.0,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+cbam_grid_default,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,"CBAM: all cable imports charged at grid-average factors (EG 0.387, IL 0.443 tCO2/MWh, Annex II; basis of the December 2025 proposal)"
+existing_ccgt,O1_EastMed,117.43061029801552,102.25227473165471,134.80524416621398,3.1172665056346314,8.360716442910034,0.447,gas burned in existing Greek CCGTs (no new-build capex)
+existing_ccgt,O2_LNG_Egypt,133.06880097262737,108.44703704041653,166.15827435646173,0.0,31.498717427879967,0.0666,gas burned in existing Greek CCGTs (no new-build capex)
+existing_ccgt,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,5e-05,gas burned in existing Greek CCGTs (no new-build capex)
+existing_ccgt,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.48635,gas burned in existing Greek CCGTs (no new-build capex)
+existing_ccgt,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,gas burned in existing Greek CCGTs (no new-build capex)
+existing_ccgt,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,gas burned in existing Greek CCGTs (no new-build capex)
+gsi_trade_link,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.06235,GSI used as a bidirectional trade link (utilisation 0.60)
+gsi_trade_link,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.01005,GSI used as a bidirectional trade link (utilisation 0.60)
+gsi_trade_link,O3_GSI,129.21379480913285,110.67777546805459,152.78112180982728,7.435359164139765,10.88895466844711,0.1628,GSI used as a bidirectional trade link (utilisation 0.60)
+gsi_trade_link,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.7648,GSI used as a bidirectional trade link (utilisation 0.60)
+gsi_trade_link,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,GSI used as a bidirectional trade link (utilisation 0.60)
+gsi_trade_link,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,GSI used as a bidirectional trade link (utilisation 0.60)
+israel_crisis_regime,O1_EastMed,141.48055153071888,123.2633720989372,161.85031037340426,3.102584283071491,9.389485763604553,0.08285,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+israel_crisis_regime,O2_LNG_Egypt,156.39579290560823,129.5772552408506,190.9322948732292,0.0,31.804537448852056,0.0145,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+israel_crisis_regime,O3_GSI,195.33617030452803,153.34785441827816,248.9888898670377,13.176661233898141,17.875035831514843,0.0001,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+israel_crisis_regime,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.90255,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+israel_crisis_regime,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+israel_crisis_regime,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,Israeli field shutdowns at the 2023-26 frequency (1 per year)
+eastmed_12bcm,O1_EastMed,136.369834607815,118.85601835556925,155.62649391004135,2.7347800174104355,7.978229954685839,0.1333,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+eastmed_12bcm,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0071,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+eastmed_12bcm,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0001,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+eastmed_12bcm,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.8595,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+eastmed_12bcm,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+eastmed_12bcm,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,EastMed at 12 bcm/yr with unchanged capex (upper bound on scale economies)
+gregy_west_route,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.0776,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_west_route,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.012,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_west_route,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0001,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_west_route,O4a_GREGY,116.04499609691361,95.76400776055554,140.1154399595104,1.5410798941605242,17.632015749673787,0.9103,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_west_route,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_west_route,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,GREGY west of Crete (16.3% in the Libya-claimed zone)
+gregy_east_route,O1_EastMed,140.45178221002436,122.33437709434139,160.86594533453015,3.1172665056346314,8.360716442910034,0.1045,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+gregy_east_route,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.01595,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+gregy_east_route,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.00015,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+gregy_east_route,O4a_GREGY,119.11044184168561,98.46970899543807,143.52162654769026,2.1655897666401462,18.25652562215341,0.8794,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+gregy_east_route,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+gregy_east_route,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,GREGY east of Crete (21.0% in Libya- and Turkiye-claimed zones)
+eastmed_alt_route,O1_EastMed,140.39229207882806,122.29818795836398,160.77003652001477,3.057776374438349,8.301226311713751,0.0919,EastMed alternative Crete-Peloponnese alignment
+eastmed_alt_route,O2_LNG_Egypt,156.08997288463618,129.32460726671502,190.63384040130848,0.0,31.498717427879956,0.0141,EastMed alternative Crete-Peloponnese alignment
+eastmed_alt_route,O3_GSI,194.10939349484698,151.9534743453691,247.8957825172879,13.19466351752647,16.648259021833812,0.0001,EastMed alternative Crete-Peloponnese alignment
+eastmed_alt_route,O4a_GREGY,117.73020975822746,97.28221493630174,141.97819162029393,1.846790435215245,17.937726290728506,0.8939,EastMed alternative Crete-Peloponnese alignment
+eastmed_alt_route,O4b_EuroAfrica,166.52088455665876,138.8964874497756,199.89988242634635,7.325028264578676,23.29983667698628,0.0,EastMed alternative Crete-Peloponnese alignment
+eastmed_alt_route,O5_Greek_RE,66.01183478868641,54.33082369860232,78.93817416862214,0.0,0.0,0.0,EastMed alternative Crete-Peloponnese alignment

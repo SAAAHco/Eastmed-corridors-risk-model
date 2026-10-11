@@ -1,0 +1,34 @@
+site,country,lat,lon,config,E_y_kwh_per_kwp,cf,radiation_db,note
+GR_Kozani,GR,40.3,21.79,fixed_optimal,1441.81,0.16459018264840183,PVGIS-SARAH3,West Macedonia PV cluster
+GR_Kozani,GR,40.3,21.79,fixed_horizontal,1240.03,0.14155593607305936,PVGIS-SARAH3,West Macedonia PV cluster
+GR_Kozani,GR,40.3,21.79,single_inclined_axis,1874.42,0.21397488584474886,PVGIS-SARAH3,West Macedonia PV cluster
+GR_Megalopolis,GR,37.4,22.14,fixed_optimal,1491.99,0.17031849315068492,PVGIS-SARAH3,Peloponnese
+GR_Megalopolis,GR,37.4,22.14,fixed_horizontal,1314.76,0.15008675799086757,PVGIS-SARAH3,Peloponnese
+GR_Megalopolis,GR,37.4,22.14,single_inclined_axis,1964.06,0.2242077625570776,PVGIS-SARAH3,Peloponnese
+GR_Crete_Heraklion,GR,35.25,25.1,fixed_optimal,1518.87,0.17338698630136984,PVGIS-SARAH3,Crete
+GR_Crete_Heraklion,GR,35.25,25.1,fixed_horizontal,1384.96,0.15810045662100458,PVGIS-SARAH3,Crete
+GR_Crete_Heraklion,GR,35.25,25.1,single_inclined_axis,1912.53,0.2183253424657534,PVGIS-SARAH3,Crete
+IL_Ashalim,IL,30.96,34.7,fixed_optimal,1809.36,0.20654794520547945,PVGIS-SARAH3,Negev
+IL_Ashalim,IL,30.96,34.7,fixed_horizontal,1637.58,0.18693835616438356,PVGIS-SARAH3,Negev
+IL_Ashalim,IL,30.96,34.7,single_inclined_axis,2338.42,0.26694292237442924,PVGIS-SARAH3,Negev
+IL_Ketura,IL,29.97,35.06,fixed_optimal,1876.16,0.21417351598173517,PVGIS-SARAH3,Arava
+IL_Ketura,IL,29.97,35.06,fixed_horizontal,1699.09,0.19396004566210046,PVGIS-SARAH3,Arava
+IL_Ketura,IL,29.97,35.06,single_inclined_axis,2436.91,0.2781860730593607,PVGIS-SARAH3,Arava
+EG_Benban,EG,24.45,32.73,fixed_optimal,1970.61,0.2249554794520548,PVGIS-SARAH3,"Benban solar park, Aswan"
+EG_Benban,EG,24.45,32.73,fixed_horizontal,1818.75,0.20761986301369864,PVGIS-SARAH3,"Benban solar park, Aswan"
+EG_Benban,EG,24.45,32.73,single_inclined_axis,2621.1,0.2992123287671233,PVGIS-SARAH3,"Benban solar park, Aswan"
+EG_Zafarana,EG,29.11,32.65,fixed_optimal,1885.87,0.2152819634703196,PVGIS-SARAH3,Gulf of Suez coast
+EG_Zafarana,EG,29.11,32.65,fixed_horizontal,1705.76,0.19472146118721462,PVGIS-SARAH3,Gulf of Suez coast
+EG_Zafarana,EG,29.11,32.65,single_inclined_axis,2523.6,0.2880821917808219,PVGIS-SARAH3,Gulf of Suez coast
+EG_WestNile_KomOmbo,EG,24.47,32.95,fixed_optimal,1923.88,0.21962100456621006,PVGIS-SARAH3,Kom Ombo
+EG_WestNile_KomOmbo,EG,24.47,32.95,fixed_horizontal,1771.8,0.20226027397260274,PVGIS-SARAH3,Kom Ombo
+EG_WestNile_KomOmbo,EG,24.47,32.95,single_inclined_axis,2575.31,0.29398515981735157,PVGIS-SARAH3,Kom Ombo
+EG_SidiBarrani,EG,31.55,25.95,fixed_optimal,1839.72,0.210013698630137,PVGIS-SARAH3,"GREGY dedicated RES zone, Matrouh coast"
+EG_SidiBarrani,EG,31.55,25.95,fixed_horizontal,1665.57,0.1901335616438356,PVGIS-SARAH3,"GREGY dedicated RES zone, Matrouh coast"
+EG_SidiBarrani,EG,31.55,25.95,single_inclined_axis,2431.1,0.2775228310502283,PVGIS-SARAH3,"GREGY dedicated RES zone, Matrouh coast"
+CY_Larnaca,CY,34.95,33.55,fixed_optimal,1677.02,0.19144063926940638,PVGIS-SARAH3,Larnaca district
+CY_Larnaca,CY,34.95,33.55,fixed_horizontal,1488.27,0.16989383561643837,PVGIS-SARAH3,Larnaca district
+CY_Larnaca,CY,34.95,33.55,single_inclined_axis,2203.41,0.2515308219178082,PVGIS-SARAH3,Larnaca district
+CY_Nicosia,CY,35.12,33.25,fixed_optimal,1653.59,0.18876598173515982,PVGIS-SARAH3,Nicosia district
+CY_Nicosia,CY,35.12,33.25,fixed_horizontal,1461.0,0.16678082191780821,PVGIS-SARAH3,Nicosia district
+CY_Nicosia,CY,35.12,33.25,single_inclined_axis,2188.08,0.2497808219178082,PVGIS-SARAH3,Nicosia district

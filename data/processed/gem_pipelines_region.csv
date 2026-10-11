@@ -1,0 +1,468 @@
+ProjectID,PipelineName,SegmentName,Status,Fuel,CountriesOrAreas,StartYear1,ShelvedYear,CancelledYear,CapacityBcm/y,LengthMergedKm,ProjectLevelCost,ProjectLevelCostUnits,CostUSD,FIDStatus,FIDYear,PCI5,PCI6,RouteAccuracy,RouteType,Wiki
+P0436,Arab Gas Pipeline,Arish-Taba Gas Pipeline,operating,Gas,Egypt,2003,,,10.3,250,,,207550000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P0439,Greenstream Gas Pipeline,,operating,Gas,"Libya, Italy",2004,,,0.2,520,,,6600000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Greenstream_Pipeline
+P0450,Iran–Iraq–Syria Gas Pipeline,,cancelled,Gas,"Iran, Iraq, Syria, Lebanon",,,,40.15,5600,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Iran%E2%80%93Iraq%E2%80%93Syria_pipeline
+P0457,Persian Gas Pipeline,,cancelled,Gas,"Iran, Türkiye, Greece, Italy, Switzerland, Austria, Germany, France, Spain",,2018,2020.0,40,3300,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Persian_Gas_Pipeline
+P0458,Qatar-Turkey Gas Pipeline,,cancelled,Gas,"Qatar, Saudi Arabia, Jordan, Syria, Türkiye",,2009,,--,1500,,,10000000000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Qatar-Turkey_Gas_Pipeline
+P0459,Tabriz-Ankara Gas Pipeline,,operating,Gas,"Iran, Türkiye",2002,,,14,2577,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tabriz-Ankara_Pipeline
+P0462,Arish–Ashkelon Pipeline,,operating,Gas,"Israel, Egypt",2008,,,7,90,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arish%E2%80%93Ashkelon_Pipeline
+P0473,Cyprus–Egypt Gas Pipeline,,proposed,Gas,"Cyprus, Egypt",2028,,,8,310,,,1000000000,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Cyprus%E2%80%93Egypt_Gas_Pipeline
+P0474,Obaiyed-Amreya Northern Gas Pipeline,Obaiyed-Tarek Gas Pipeline,operating,Gas,Egypt,,,,6.13,49.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Obaiyed-Amreya_Northern_Gas_Pipeline
+P0476,Salam-Abu Gharadig Southern Gas Pipeline,,operating,Gas,Egypt,,,,1.91,212,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Salam-Abu_Gharadig_Southern_Gas_Pipeline
+P0477,South Valley Gas Pipeline,SYSTEM/NETWORK INFO,operating,Gas,Egypt,2009,,,12,930,,,9300000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/South_Valley_Gas_Pipeline
+P0479,Israel Cyprus Gas Pipeline,,proposed,Gas,"Israel, Cyprus",,,,4,215,,,350000000,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Israel_Cyprus_Gas_Pipeline
+P0480,Israel Jordan Gas Pipeline,,operating,Gas,"Israel, Jordan",2020,,,--,65,,,200000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Israel_Jordan_Gas_Pipeline
+P0482,Defa-Brega Gas Pipeline,,operating,Gas,Libya,,,,--,299,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Defa-Brega_gas_pipeline
+P0483,Libya Coastal Gas Pipeline,,operating,Gas,Libya,1983,,,6.17,1164,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Libya_Coastal_Gas_Pipeline
+P0484,Wafa-Mellitah Gas Pipeline,Pipeline 1,operating,Gas,Libya,2004,,,13,5246,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Wafa-Mellitah_gas_pipeline
+P0681,Arad-Szeged Gas Pipeline,,operating,Gas,"Romania, Hungary",2010,,,4.5,109,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Arad%E2%80%93Szeged_Gas_Pipeline
+P0696,Gas Interconnector Greece–Bulgaria (IGB),,operating,Gas,"Greece, Bulgaria",2022,,,3,184,,,261600000,FID,,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Gas_Interconnector_Greece_-_Bulgaria_(IGB)
+P0697,GALSI Pipeline,,shelved,Gas,"Algeria, Italy",,,,8,861,,,3000000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/GALSI_Pipeline
+P0699,Giurgiu-Ruse Gas Pipeline,,operating,Gas,"Romania, Bulgaria",2016,,,1.5,26,,,26160000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Giurgiu%E2%80%93Ruse_Gas_Pipeline
+P0702,Ionian Adriatic Gas Pipeline,,proposed,Gas,"Albania, Montenegro, Croatia",2029,,,5,540,,,638740000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Ionian_Adriatic_Gas_Pipeline
+P0708,Nabucco Gas Pipeline,,cancelled,Gas,"Türkiye, Bulgaria, Romania, Austria, Hungary",,,2013.0,31,3893,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Nabucco_Gas_Pipeline
+P0724,Trans-Adriatic Gas Pipeline,,operating,Gas,"Türkiye, Greece, Albania, Italy",2020,,,10,878,,,4500000000,,,,,very high (within meters),Mapped route (at any accuracy),https://www.gem.wiki/Trans-Adriatic_Gas_Pipeline
+P0725,Trans-Mediterranean Gas Pipeline,SYSTEM/NETWORK INFO,operating,Gas,"Algeria, Tunisia, Italy, Croatia",1983,,,33.5,3579,,,6250000000,,,,,no route,Included in other ProjectID,https://www.gem.wiki/Trans-Mediterranean_Gas_Pipeline
+P0728,Városföld-Slobodnica Gas Pipeline,,operating,Gas,"Hungary, Croatia",2011,,,7,293,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/V%C3%A1rosf%C3%B6ld%E2%80%93Slobodnica_pipeline
+P0732,White Stream Gas Pipeline,,cancelled,Gas,"Georgia, Romania",2023,,,32,1238,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/White_Stream_Gas_Pipeline
+P0736,Blue Stream Gas Pipeline,,operating,Gas,"Russia, Türkiye",2003,,,16,1213,,,3200000000,,,,,very high (within meters),Mapped route (at any accuracy),https://www.gem.wiki/Blue_Stream_Gas_Pipeline
+P0747,Turkey-Greece-Italy Interconnector Gas Pipeline (ITGI),,operating,Gas,"Türkiye, Greece",2007,,,11,296,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Interconnector_Turkey-Greece-Italy_(ITGI)
+P0759,South Caucasus Gas Pipeline,Main Line,operating,Gas,"Azerbaijan, Georgia, Türkiye",2006,,,7.41,693,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/South_Caucasus_Gas_Pipeline
+P0760,South Stream Gas Pipeline,,cancelled,Gas,"Russia, Bulgaria, Serbia, Hungary, Croatia, Slovakia, Slovenia, Austria, Greece, Italy",,,2014.0,63,2380,,,15500000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/South_Stream_Gas_Pipeline
+P0762,Tesla Gas Pipeline,,cancelled,Gas,"Türkiye, Greece, Serbia, Hungary, Austria",2019,2017,2019.0,27,1400,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tesla_Gas_Pipeline
+P0763,Trans-Anatolian Gas Pipeline,Main Line (Phase 0 and 1),operating,Gas,"Georgia, Türkiye",2018,,,16,1811,,,11000000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Trans-Anatolian_Gas_Pipeline
+P0765,TurkStream Gas Pipeline,1,operating,Gas,"Russia, Türkiye",2020,,,15.75,930,,,7800000000,,,,,very high (within meters),Mapped route (at any accuracy),https://www.gem.wiki/TurkStream_Gas_Pipeline
+P0772,Bacau Gas Pipeline,,operating,Gas,Romania,2004,,,0.16,31.45,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Bacau_Gas_Pipeline
+P0803,Eastring Pipeline,,proposed,Gas,"Slovakia, Hungary, Romania, Bulgaria, Türkiye",2027,,,20,1208,,,2834000000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Eastring_Pipeline
+P0827,EastMed Gas Pipeline,SYSTEM/NETWORK ROUTE,proposed,Gas,"Israel, Cyprus, Greece",2025,,,10,165,,,6540000000,Pre-FID,2023.0,yes,yes,high,Mapped route (at any accuracy),https://www.gem.wiki/EastMed_Gas_Pipeline
+P1321,Bosnia and Herzegovina–Croatia South Interconnection Gas Pipeline,Posusje - Novi Travnik with branch to Mostar,proposed,Gas,"Bosnia and Herzegovina, Croatia",2026,,,1.5,168,,,201.65,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bosnia_and_Herzegovina%E2%80%93Croatia_South_Interconnection_Gas_Pipeline
+P1324,Cyprus-Turkey Gas Pipeline,Anamur-North Cyprus,cancelled,Gas,"Türkiye, Cyprus",2025,,2025.0,3.1,80,,,337591286,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Cyprus-Turkey_Gas_Pipeline
+P1326,Tauern Gas Pipeline,,cancelled,Gas,"Germany, Austria, Italy",,2015,2017.0,11.4,290,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Tauern_Gas_Pipeline
+P1327,Malta-Italy Gas Pipeline,,proposed,Gas,"Italy, Malta",2030,,,1.2,159,,,446682000,Pre-FID,,yes,yes,high,Mapped route (at any accuracy),https://www.gem.wiki/Malta-Italy_Gas_Pipeline
+P1330,BRUA Gas Pipeline,Phase 1,operating,Gas,Romania,2020,,,1.75,479,,,461070000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/BRUA_Gas_Pipeline
+P1331,Serbian-Hungarian Gas Pipeline,,operating,Gas,"Serbia, Hungary",2021,,,6,82,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Serbian-Hungarian_Gas_Pipeline
+P1336,Bulgaria-Serbia Interconnector Gas Pipeline,,operating,Gas,"Bulgaria, Serbia",2023,,,1.8,170,,,146060000,FID,,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bulgaria_Serbia_Interconnection
+P1337,Bulgaria National Gas Transmission Network,SYSTEM/NETWORK INFO,operating,Gas,Bulgaria,,,,25.2,3276,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bulgaria_National_Gas_Transmission_Network
+P1342,Croatia-Slovenia Interconnector Gas Pipeline,Jezerisce-Sotla,proposed,Gas,Croatia,2030,,,5.7,8,,,--,Pre-FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Croatia-Slovenia_Interconnector_Gas_Pipeline
+P1344,Adriatica Pipeline,Campochiaro-Sulmona,operating,Gas,Italy,2005,,,8.8,94,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P1345,Poseidon Gas Pipeline,Offshore Section,proposed,Gas,"Greece, Italy",2027,,,12,210,,,1144500000,Pre-FID,2023.0,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Poseidon_Gas_Pipeline
+P1368,TurkStream Gas Pipeline,2,operating,Gas,"Russia, Türkiye",2020,,,15.75,930,,,--,,,,,very high (within meters),Mapped route (at any accuracy),https://www.gem.wiki/TurkStream_Gas_Pipeline
+P1451,Hust–Satu Mare Gas Pipeline,,operating,Gas,"Romania, Ukraine",1999,,,2,20.6,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Hust%E2%80%93Satu_Mare_Gas_Pipeline
+P1567,Eagle FLNG Pipeline,,cancelled,Gas,"Albania, Italy",2017,2017,2019.0,10,128,,,--,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Eagle_FLNG_Pipeline
+P1628,Kipi-Komotini Pipeline,,operating,Gas,"Türkiye, Greece",,,,--,87,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Kipi-Komotini_Pipeline
+P1633,Erzurum-Sivas Pipeline,,operating,Gas,Türkiye,,,,--,368.95,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Erzurum-Sivas_Pipeline
+P1634,Izmit-Eregli Pipeline,,operating,Gas,Türkiye,1996,,,--,210,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Izmit-Eregli_Pipeline
+P1635,Murati-Silivri Pipeline,,operating,Gas,"Estonia, Türkiye",,,,--,181.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Murati-Silivri_Pipeline
+P1636,Sivas-Ankara Pipeline,,operating,Gas,Türkiye,,,,--,453.24,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sivas-Ankara_Pipeline
+P1637,Tekirdag-Buyukkaristiran Pipeline,,operating,Gas,Türkiye,,,,--,41,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tekirdag-Buyukkaristiran_Pipeline
+P1689,Larino-Chieti Gas Pipeline,,operating,Gas,Italy,2022,,,2.53,113,,,147150000,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Larino-Chieti_Pipeline
+P1690,San Marco–Recanati Pipeline,,operating,Gas,Italy,2022,,,2.53,34.5,,,49050000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/San_Marco%E2%80%93Recanati_Pipeline
+P1691,Matagiola-Massafra Gas Pipeline,Matagiola - Francavilla,proposed,Gas,Italy,2030,,,3.61,40,,,315010000,Pre-FID,2025.0,yes,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Matagiola-Massafra_Gas_Pipeline
+P1692,Greece-Italy Interconnector Gas Pipeline,,operating,Gas,"Greece, Italy",2010,,,--,800,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Greece-Italy_Interconnector_Gas_Pipeline_(IGI)
+P1694,Beglej-Dermantsi-Batultsi-Kalugerovo Pipeline,Original Line,operating,Gas,Bulgaria,1975,,,--,58,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Beglej-Dermantsi-Batultsi-Kalugerovo_Pipeline
+P1695,Valchi Dol–Preselka Pipeline,Original Line,operating,Gas,Bulgaria,1975,,,--,23,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Valchi_Dol%E2%80%93Preselka_Pipeline
+P1696,Lozenets–Nedyalsko Loop Gas Pipeline,,operating,Gas,Bulgaria,2018,,,1.7,20,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Lozenets%E2%80%93Nedyalsko_Loop_Gas_Pipeline
+P1697,Gorni Bogrov–Novi Iskar Pipeline,Modernization and rehabilitation of the Bulgarian GTS-Phase 3,proposed,Gas,Bulgaria,2028,,,--,19,,,128620000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Gorni_Bogrov%E2%80%93Novi_Iskar_Pipeline 
+P1702,Black Sea Shore-Podisor Pipeline,,construction,Gas,Romania,2027,,,14.82,308,,,545000000,FID,,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Black_Sea_Shore%E2%80%93Podi%C8%99or_Gas_Pipeline
+P1705,North Macedonia–Greece Interconnector Gas Pipeline,Nea Massivria-Evzoni,proposed,Gas,"Greece, North Macedonia",2027,,,1.5,54,,,99190000,FID,2023.0,,,low,Mapped route (at any accuracy),https://www.gem.wiki/North_Macedonia%E2%80%93Greece_Interconnector_Gas_Pipeline
+P1706,Romania-Serbia Interconnection Gas Pipeline,,proposed,Gas,"Romania, Serbia",2023,,,1.6,97,,,94612000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Romania-Serbia_Interconnection_Gas_Pipeline
+P1707,Komotini-Thesprotia Gas Pipeline,,cancelled,Gas,Greece,2025,,2020.0,--,620,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Komotini-Thesprotia_Gas_Pipeline
+P1712,Umag-Plovanija-Koper Gas Pipeline,,cancelled,Gas,"Croatia, Slovenia",2029,,,0.58,8,,,--,Pre-FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Umag-Plovanija-Koper_Gas_Pipeline
+P1714,North–Vest Romania Pipeline,,proposed,Gas,Romania,2023,,,--,518,,,441450000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/North%E2%80%93Vest_Romania_Pipeline
+P1728,Mellitah-Gábes Pipeline,,cancelled,Gas,"Libya, Tunisia",,2006,2008.0,1.98,275,,,270000000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Mellitah-G%C3%A1bes_Pipeline
+P1773,Romania-Ukraine Interconnector,Siret-Khotyn Gas Pipeline,cancelled,Gas,"Ukraine, Romania",2025,,,2.81,30,,,43600000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Siret-Khotyn_Gas_Pipeline
+P1789,Khoms-Melita Pipeline,,operating,Gas,Libya,,,,2,25,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Khoms-Melita_Pipeline
+P1855,Bahr Assalam–Mellitah Gas Pipeline, Pipeline 1,operating,Gas,Libya,2005,,,28,109,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Bahr_Assalam-Mellitah_gas_pipeline
+P1856,Intesar-Brega Gas Pipeline,,operating,Gas,Libya,,,,42.48,333,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Intesar-Brega_gas_pipeline
+P1857,103D-103A Gas Pipeline,,operating,Gas,Libya,,,,17.84,41,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/103D-103A_gas_pipeline
+P1858,Bu-Attifel-Intesar Gas Pipeline,Pipeline 1,operating,Gas,Libya,,,,0,131.96,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Bu-Attifel-Intesar_gas_pipeline
+P1859,Bouri-Bahr Assalam Gas Pipeline,Pipeline 1,operating,Gas,Libya,,,,3.88,32,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Bouri-Bahr_Assalam_gas_pipeline
+P1860,Waha-Nasser Gas Pipeline,,operating,Gas,Libya,,,,5.66,177,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Waha-Nasser_gas_pipeline
+P1861,Farigh-Intesar Gas Pipeline,,operating,Gas,Libya,,,,7.08,177,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Faregh-Intesar_gas_pipeline
+P1862,Brega-Benghazi Gas Pipeline,,operating,Gas,Libya,,,,10.76,396,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Brega-Benghazi_gas_pipeline
+P1863,Brega-Khoms Gas Pipeline,,operating,Gas,Libya,,,,11.61,645,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Brega-Khoms_gas_pipeline
+P1864,Khoms-Tripoli Gas Pipeline,,operating,Gas,Libya,,,,17.05,201,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Khoms-Tripoli_gas_pipeline
+P1865,Tripoli-Mellitah Gas Pipeline,,operating,Gas,Libya,,,,16.99,158,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tripoli-Mellitah_gas_pipeline
+P1866,Nasser-Brega Gas Pipeline,,operating,Gas,Libya,,,,14.87,277,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Nasser-Brega_gas_pipeline
+P1867,Attahaddy-km-91.5 Gas Pipeline,,operating,Gas,Libya,,,,28.32,40,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Attahaddy-km-91.5_gas_pipeline
+P1868,Km-81.5-Brega Gas Pipeline,,operating,Gas,Libya,,,,8.5,132,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Km-81.5-Brega_gas_pipeline
+P1869,Raguba-Km-110 Gas Pipeline,,operating,Gas,Libya,,,,3.96,142,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Raguba-Km-110_gas_pipeline
+P1870,Intesar-Sahel Gas Pipeline,,operating,Gas,Libya,,,,19.82,129,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Intesar-Sahel_gas_pipeline
+P1871,Sahel-km-81.5 Gas Pipeline,,operating,Gas,Libya,,,,19.54,79,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Sahel-km-81.5_gas_pipeline
+P1872,Km-91.5-Brega Gas Pipeline,,operating,Gas,Libya,,,,21.24,184,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Km-91.5-Brega_gas_pipeline
+P1873,Jakhira-Intesar Gas Pipeline,,operating,Gas,Libya,,,,2.4,160,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Jakhira-Intesar_gas_pipeline
+P2036,Bulgaria National Gas Transmission Network,Expansion,operating,Gas,Bulgaria,2021,,,--,0,,,477420000,FID,,yes,,no route,Capacity expansion only,https://www.gem.wiki/Bulgaria_National_Gas_Transmission_Network
+P2084,Beglej-Dermantsi-Batultsi-Kalugerovo Pipeline,Replacement Line,operating,Gas,Bulgaria,2022,,,--,58,,,--,FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Beglej-Dermantsi-Batultsi-Kalugerovo_Pipeline
+P2085,Balkan Stream Gas Pipeline,,operating,Gas,Bulgaria,2020,,,20,474,,,1199000000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Balkan_Stream_gas_pipeline
+P2086,Chiren-Kozloduy-Oryahovo Gas Pipeline,,operating,Gas,Bulgaria,2016,,,0.35,70,,,18530000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Chiren-Kozloduy-Oryahovo_Gas_Pipeline
+P2087,Dobrish-Silistra Gas Pipeline,,operating,Gas,Bulgaria,2015,,,0.88,80,,,13407000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Dobrish-Silistra_Gas_Pipeline
+P2088,Razlog-Bansko Gas Pipeline,,proposed,Gas,Bulgaria,2029,,,--,37,,,26187000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Razlog-Bansko_Gas_Pipeline
+P2089,Panagiurishte-Pirdop Gas Pipeline,,operating,Gas,Bulgaria,2023,,,--,62,,,35076600,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Panagiurishte-Pirdop_Gas_Pipeline
+P2090,AGRS Graf Ignatievo to Hisarya–Banya–Karlovo-Sopot Gas Pipeline,,proposed,Gas,Bulgaria,,,,--,54,,,54000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/AGRS_Graf_Ignatievo_to_Hisarya%E2%80%93Banya%E2%80%93Karlovo-Sopot_Gas_Pipeline
+P2091,Varna-Oryahovo Gas Pipeline,,shelved,Gas,Bulgaria,2022,2020,,42.6,844,,,1936930000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Varna-Oryahovo_Gas_Pipeline
+P2189,Omišalj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica LNG main evacuation pipeline,Phase One,operating,Gas,Croatia,2021,,,2.63,18,,,29430000,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Omi%C5%A1alj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica_LNG_main_evacuation_pipeline
+P2190,Omišalj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica LNG main evacuation pipeline,Zlobin - Bosiljevo,operating,Gas,Croatia,2025,,,1.84,58,,,168950000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Omi%C5%A1alj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica_LNG_main_evacuation_pipeline
+P2191,Omišalj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica LNG main evacuation pipeline,Kozarac-Slobodnica,proposed,Gas,Croatia,2030,,,--,128,,,153690000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Omi%C5%A1alj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica_LNG_main_evacuation_pipeline
+P2197,Ramle-Elyakim Gas Pipeline,,operating,Gas,Israel,2017,,,--,90,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Ramle-Elyakim_Gas_Pipeline
+P2227,Russian Federation – Turkey Natural Gas Main Transmission Line,,mothballed,Gas,"Russia, Türkiye",1986,,,4,842,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Russian_Federation-Turkey_Natural_Gas_Main_Transmission_Line
+P2235,Methanization of Sardinia Project,Phase 1,proposed,Gas,Italy,2027,,,1.68,420,,,654000000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Methanization_of_Sardinia_Project
+P2236,TAP Interconnection Gas Pipeline,,operating,Gas,Italy,2020,,,--,55,,,219000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/TAP_Interconnection_Gas_Pipeline
+P2277,BRUA Gas Pipeline,Phase 2,cancelled,Gas,Romania,2022,,2020.0,2.65,50,,,--,,,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/BRUA_Gas_Pipeline
+P2278,Romania-Moldova Gas Pipeline,Phase I,operating,Gas,Romania,2015,,,--,33,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Romania-Moldova_Gas_Pipeline
+P2462,Serbia-North Macedonia Interconnection Pipeline,North Macedonian Segment,proposed,Gas,"Serbia, North Macedonia",2023,,,1.5,23,,,32271293.19,Pre-FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Serbia-North_Macedonia_Interconnector_Pipeline
+P2463,Banatski Dvor-Pancevo-Belgrade Gas Pipeline,,cancelled,Gas,Serbia,2022,,,--,115,,,70850000,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Banatski_Dvor-Pancevo-Belgrade_Gas_Pipeline#Background
+P2464,Aleksandrovac-Novi Pazar-Tutin Pipeline,,construction,Gas,Serbia,2023,,,0.66,116.6,,,56680000,FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Aleksandrovac-Novi_Pazar-Tutin_Pipeline
+P2485,South Natural Gas Pipeline,,operating,Gas,Türkiye,2005,,,--,722,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/South_Natural_Gas_Pipeline
+P2486,Konya-Izmir Gas Pipeline,,operating,Gas,Türkiye,2007,,,--,865,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Konya-Izmir_Gas_Pipeline
+P2487,Bingöl-Bitlis Gas Pipeline,,operating,Gas,Türkiye,2015,,,--,177,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bing%C3%B6l-Bitlis_Gas_Pipeline
+P2488,Hakkari Gas Pipeline,,operating,Gas,Türkiye,2019,,,--,203.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Hakkari_Gas_Pipeline
+P2489,Demirciler-Adapazarı-Düzce Gas Pipeline,,operating,Gas,Türkiye,2017,,,--,148,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Demirciler-Adapazar%C4%B1-D%C3%BCzce_Gas_Pipeline
+P2490,Gördes-Gölhisar Gas Pipeline,,operating,Gas,Türkiye,2018,,,--,140,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/G%C3%B6rdes-G%C3%B6lhisar_Gas_Pipeline
+P2491,Aliağa Pig-Üçpınar Pig Gas Pipeline,,operating,Gas,Türkiye,2019,,,--,32,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Alia%C4%9Fa_Pig-%C3%9C%C3%A7p%C4%B1nar_Pig_Gas_Pipeline
+P2719,Iğdır-Nakhchivan Gas Pipeline,,operating,Gas,"Türkiye, Azerbaijan",2024,,,0.73,156.91,,,13690000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/I%C4%9Fd%C4%B1r-Nakhchivan_Gas_Pipeline
+P2726,Romania-Ukraine Interconnector,Onești-Gheraesti-Letcani,operating,Gas,Romania,2021,,,--,165.15,,,142790000,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/One%C8%99ti-Gheraesti-Letcani_Gas_Pipeline
+P2727,Romania-Ukraine Interconnector,Gheraesti-Siret,cancelled,Gas,Romania,2026,2020,2022.0,--,146,,,136250000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Gheraesti-Siret_Gas_Pipeline
+P2728,Sealine Tirrenica Gas Pipeline,Additional Southern developments - Section 1,cancelled,Gas,Italy,2034,,,--,255,,,--,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sealine_Tirrenica_Gas_Pipeline
+P2729,BRUA Gas Pipeline,Phase 3,proposed,Gas,Romania,2023,2018,,5.32,843,,,931950000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/BRUA_Gas_Pipeline
+P2747,Romania-Moldova Gas Pipeline,Phase II,operating,Gas,"Romania, Moldova",2021,,,1.5,120,,,100280000,FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Romania-Moldova_Gas_Pipeline
+P2749,Midia Gas Pipeline,,operating,Gas,Romania,2022,,,1,126,,,--,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Midia_Gas_Pipeline
+P2755,Alessandria–Cortemaggiore Gas Pipeline,,operating,Gas,Italy,1986,,,--,117.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Alessandria–Cortemaggiore_Gas_Pipeline
+P2757,Altamura–Candela Gas Pipeline,,operating,Gas,Italy,1967,,,--,110.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Altamura–Candela_Gas_Pipeline
+P2758,Altamura–Latiano Gas Pipeline,Altramura-Sannicandrio,operating,Gas,Italy,1990,,,--,143.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Altamura–Latiano_Gas_Pipeline
+P2759,Altamura–Ferrandina Gas Pipeline,,operating,Gas,Italy,1987,,,--,29.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Altamura–MonteAlpi_Gas_Pipeline
+P2760,Biccari–Massafra Gas Pipeline,,operating,Gas,Italy,2011,,,--,194.7,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Altamura–Palagiano_Gas_Pipeline
+P2761,Ampelia–Bralos Gas Pipeline,,operating,Gas,Greece,,,,--,74.27,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Ampelia–Bralos_Gas_Pipeline
+P2762,Ampelia–Volvos Gas Pipeline,,operating,Gas,Greece,,,,--,49.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Ampelia–Volvos_Gas_Pipeline
+P2773,Banatski Dvor–Novi Sad Gas Pipeline,,operating,Gas,Serbia,,,,--,83.24,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Banatski_Dvor–Novi_Sad_Gas_Pipeline
+P2777,Batajnica–Sarajevo Gas Pipeline,,operating,Gas,Serbia,,,,--,222.33,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Batajnica–Sarajevo_Gas_Pipeline
+P2781,Benevento–Biccari Gas Pipeline,,operating,Gas,Italy,1965,,,--,53.2,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Benevento–Biccari_Gas_Pipeline
+P2784,Bernalda–Grumento Gas Pipeline,,operating,Gas,Italy,1993,,,--,91.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Bernalda–Grumento_Gas_Pipeline
+P2790,Biccari–Candela Gas Pipeline,,operating,Gas,Italy,1965,,,--,35.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Biccari–Candela_Gas_Pipeline
+P2795,Bosiljevo–Rjeka Gas Pipeline,,operating,Gas,Croatia,,,,--,81.06,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Bosiljevo–Rjeka_Gas_Pipeline
+P2796,Bosiljevo–Split Gas Pipeline,Bosiljevo-Pijesevica,operating,Gas,Croatia,,,,--,183.05,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Bosiljevo–Split_Gas_Pipeline
+P2797,Bralos–Aliartos Gas Pipeline,,operating,Gas,Greece,,,,--,95.39,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Bralos–Aliartos_Gas_Pipeline
+P2802,BRUA Gas Extra Pipeline,,operating,Gas,Romania,,,,15.57,44.9,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/BRUA_Gas_Extra_Pipeline
+P2808,Calderari Enna–Gela Gas Pipeline,,operating,Gas,Italy,2004,,,--,67.3,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Calderari_Enna–Gela_Gas_Pipeline
+P2809,Canicatti–Enna Gas Pipeline,,operating,Gas,Italy,1995,,,--,60.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Calderari_Enna–Menfi_Gas_Pipeline
+P2811,Campagna Lupia–Ravenna Gas Pipeline,,operating,Gas,Italy,1969,,,--,108.6,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Campagna_Lupia–Ravenna_Terra_Gas_Pipeline
+P2812,Melizzano-Vastogirardi Gas Pipeline,Campochiaro–Melizzano Gas Pipeline,operating,Gas,Italy,1993,,,--,89,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Campochiaro–Melizzano_Gas_Pipeline
+P2817,Cervignano–Ripalta Gas Pipeline,,operating,Gas,Italy,1996,,,--,22.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cervignano–Ripalta_Gas_Pipeline
+P2818,Ripalta–Sergnano Gas Pipeline,,operating,Gas,Italy,1980,,,--,15.6,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cervignano–Sergnano_Gas_Pipeline
+P2819,Montalbano-Messina Gas Pipeline,,operating,Gas,Italy,1996,,,--,78.6,,,--,,,,,high,Mapped route (at any accuracy),
+P2823,Chieti–San Salvo Gas Pipeline,,operating,Gas,Italy,1981,,,--,94,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Chieti–Cupello_Gas_Pipeline
+P2824,Chieti–Pineto Gas Pipeline,,operating,Gas,Italy,,,,--,28.46,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Chieti–Pineto_Gas_Pipeline
+P2825,Chivasso–Mortara Gas Pipeline,,operating,Gas,Italy,1994,,,--,67.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Chivasso–Mortara_Gas_Pipeline
+P2826,Chivasso–Poirino Gas Pipeline,,operating,Gas,Italy,1987,,,--,31.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Chivasso–Poirino_Gas_Pipeline
+P2827,Maenza–Melizzano Gas Pipeline,,operating,Gas,Italy,1982,,,--,133.3,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Ciciliano–Melizzano_Gas_Pipeline
+P2834,Cortemaggiore–Pontremoli Gas Pipeline,,operating,Gas,Italy,1981,,,--,42.6,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cortemaggiore–Pontremoli_Gas_Pipeline
+P2837,Crotone–Maida Santa Eufemia Gas Pipeline,,operating,Gas,Italy,1975,,,--,97.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Crotone–Maida_Santa_Eufemia_Gas_Pipeline
+P2838,San Salvo–Biccari Gas Pipeline,,operating,Gas,Italy,1981,,,--,94,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cupello–Biccari_Gas_Pipeline
+P2839,San Salvo–Vastogirardi Gas Pipeline,,operating,Gas,Italy,,,,--,58.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cupello–Vastogirardi_Gas_Pipeline
+P2846,Dubnitza–Kyustendil Gas Pipeline,,operating,Gas,Bulgaria,,,,--,34.4,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Dubnitza–Kyustendil_Gas_Pipeline
+P2872,Foligno-Terni-Civita Castellana Gas Pipeline,,operating,Gas,Italy,1972,,,--,61.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Foligno–Gallese_Civita_Cast_Gas_Pipeline
+P2876,Enna-Bronte Gas Pipeline,,operating,Gas,Italy,1993,,,--,65.7,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Gagliano_Sparacollo–Calderari_Enna_Gas_Pipeline
+P2877,Gallese Civita Cast–Oricola Gas Pipeline,,operating,Gas,Italy,1994,,,--,82.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Gallese_Civita_Cast–Oricola_Gas_Pipeline
+P2883,Ferrandina–Moliterno Gas Pipeline,,operating,Gas,Italy,1984,,,--,83,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Grumento–Moliterno_Gas_Pipeline
+P2899,Ihtiman–Dubnitza Gas Pipeline,,operating,Gas,Bulgaria,,,,--,63.91,,,--,,,,,medium,Mapped route (at any accuracy),https://gem.wiki/Ihtiman–Dubnitza_Gas_Pipeline
+P2902,Istrana–Mira Gas Pipeline,,operating,Gas,Italy,1978,,,--,29.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Istrana–Mira_Gas_Pipeline
+P2907,Kardam–Negru Voda Gas Pipeline,,operating,Gas,Bulgaria,,,,1.8,11.78,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Kardam–Negru_Voda_Gas_Pipeline
+P2908,Karperi–Ampelia Gas Pipeline,Main Line,operating,Gas,Greece,,,,--,180.62,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Karperi%E2%80%93Ampelia_Gas_Pipeline
+P2912,Kulata–Petrich Gas Pipeline,,operating,Gas,Bulgaria,,,,--,23.01,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Kulata–Petrich_Gas_Pipeline
+P2916,Palagiano-Brindisi Gas Pipeline,Latiano–Brindisi Gas Pipeline,operating,Gas,Italy,1984,,,--,77.3,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Latiano–Brindisi_Gas_Pipeline
+P2917,Lauria–Montesano Gas Pipeline,,operating,Gas,Italy,1995,,,--,37.7,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Lauria–Morano_Gas_Pipeline
+P2927,Lucko–Bosiljevo Gas Pipeline,,operating,Gas,Croatia,,,,--,65.21,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Lucko–Bosiljevo_Gas_Pipeline
+P2936,MaidaSEufemia–Reggio Calabria Gas Pipeline,,operating,Gas,Italy,1980,,,--,96.2,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/MaidaSEufemia–Reggio_Calabria_Gas_Pipeline
+P2948,Mediesu Aurit–Khust Gas Pipeline,,operating,Gas,Romania,,,,--,44.63,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Mediesu_Aurit–Khust_Gas_Pipeline
+P2950,Melizzano–Benevento Gas Pipeline,,operating,Gas,Italy,1968,,,--,36.6,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Melizzano–Benevento_Gas_Pipeline
+P2951,Mazara Del Vallo-Sciacca Gas Pipeline,,operating,Gas,Italy,1980,,,--,49.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Menfi–Mazara_Del_Vallo_Gas_Pipeline
+P2953,Messina–Montalbano Gas Pipeline,,operating,Gas,Italy,1996,,,--,76.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Messina–Montalbano_Gas_Pipeline
+P2956,Minerbio–Parma Gas Pipeline,Minerbio-Castelfranco,operating,Gas,Italy,1992,,,--,38.7,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Minerbio–Parma_Gas_Pipeline
+P2957,Minerbio–Ravenna Terra Gas Pipeline,,operating,Gas,Italy,1969,,,--,58.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Minerbio–Ravenna_Terra_Gas_Pipeline
+P2958,Mira–Campagna Lupia Gas Pipeline,,operating,Gas,Italy,1992,,,--,14.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Mira–Campagna_Lupia_Gas_Pipeline
+P2962,Moliterno–Montesano Sulla Marcellana Gas Pipeline,,operating,Gas,Italy,,,,--,5.06,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Moliterno–Montesano_Sulla_Marcellana_Gas_Pipeline
+P2965,Montalbano–Bronte Gas Pipeline,,operating,Gas,Italy,1995,,,--,60.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Montalbano–Gagliano_Gas_Pipeline
+P2969,Morano–Tarsia Gas Pipeline,,operating,Gas,Italy,2008,,,--,41.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Morano–Tarsia_Gas_Pipeline
+P2971,Mortara–Alessandria Gas Pipeline,,operating,Gas,Italy,2008,,,--,44.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Mortara–Alessandria_Gas_Pipeline
+P2985,Oricola–Ciciliano Gas Pipeline,,operating,Gas,Italy,1984,,,--,18,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Oricola–Ciciliano_Gas_Pipeline
+P2986,Vastogirardi-Oricola Gas Pipeline,Oricola–Sulmona Gas Pipeline,operating,Gas,Italy,1993,,,--,139.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Oricola–Sulmona_Gas_Pipeline
+P2988,Palagiano–Bernalda Gas Pipeline,,operating,Gas,Italy,1975,,,--,32.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Palagiano–Bernalda_Gas_Pipeline
+P2989,Palagiano-Brindisi Gas Pipeline,Palagiano-Latiano,operating,Gas,Italy,1985,,,--,77.3,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Palagiano–Latiano_Gas_Pipeline
+P2990,Palmi–Messina Gas Pipeline,,operating,Gas,Italy,,,,--,32.49,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Palmi–Messina_Gas_Pipeline
+P2991,Parma–Pontremoli Gas Pipeline,,operating,Gas,Italy,2002,,,--,70.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Parma–Pontremoli_Gas_Pipeline
+P2993,Petrich–Dubnitza Gas Pipeline,,operating,Gas,Bulgaria,,,,--,98.88,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Petrich–Dubnitza_Gas_Pipeline
+P2998,Podisor–Giurgiu Gas Pipeline,,operating,Gas,Romania,,,,--,57.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Podisor–Giurgiu_Gas_Pipeline
+P3000,Poggio Renatico–Minerbio Gas Pipeline,,operating,Gas,Italy,1988,,,--,19,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Poggio_Renatico–Minerbio_Gas_Pipeline
+P3001,Poirino–Alessandria Gas Pipeline,,operating,Gas,Italy,1971,,,--,65.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Poirino–Alessandria_Gas_Pipeline
+P3003,Pontremoli–La Spezia Gas Pipeline,,operating,Gas,Italy,1969,,,--,18.8,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Pontremoli–La_Spezia_Gas_Pipeline
+P3009,Terranuova-Castelbolognese Gas Pipeline,,operating,Gas,Italy,1996,,,--,111.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Ravenna_Mare–Rubicone_Gas_Pipeline
+P3010,Ravenna-Recanati Gas Pipeline,,operating,Gas,Italy,1960,,,--,172,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Ravenna_Terra–Ravenna_Mare_Gas_Pipeline
+P3013,Recanati–Chieti Gas Pipeline,,operating,Gas,Italy,1960,,,--,150.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Recanati–Chieti_Gas_Pipeline
+P3014,Recanati–Foligno Gas Pipeline,,operating,Gas,Italy,1971,,,--,100.3,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Recanati–Foligno_Gas_Pipeline
+P3015,Reggio Calabria–Messina Gas Pipeline,,operating,Gas,Italy,,,,--,19.05,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Reggio_Calabria–Messina_Gas_Pipeline
+P3017,Maida-Martirano Gas Pipeline,,operating,Gas,Italy,1993,,,--,34.1,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Rende–Maida_Gas_Pipeline
+P3020,Rijeka–Pula Gas Pipeline,,operating,Gas,Croatia,,,,--,95.32,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Rijeka–Pula_Gas_Pipeline
+P3022,Rimini–Sansepolcro Gas Pipeline,,operating,Gas,Italy,1970,,,--,45.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Rimini–Sansepolcro_Gas_Pipeline
+P3023,Cortemaggiore–Ripalta Gas Pipeline,Capacity Expansion,operating,Gas,Italy,1981,,,--,42.6,,,--,,,,,no route,Capacity expansion only,https://gem.wiki/Ripalta–Cortemaggiore_Gas_Pipeline
+P3024,Rogatec–Gorizia Gas Pipeline,Rogatec-Vodice,operating,Gas,"Slovenia, Italy",,,,2.71,100.72,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Rogatec–Gorizia_Gas_Pipeline
+P3032,Oricola–Ciciliano Gas Pipeline,,operating,Gas,Italy,1993,,,--,18,,,--,,,,,no route,Capacity expansion only,https://gem.wiki/Oricola–Ciciliano_Gas_Pipeline
+P3038,Sergnano–Vigasio Gas Pipeline,,operating,Gas,Italy,,,,--,80.89,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Sergnano–Vigasio_Gas_Pipeline
+P3039,Slobodnica–Lucko Gas Pipeline,,operating,Gas,Croatia,,,,--,193.22,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Slobodnica–Lucko_Gas_Pipeline
+P3040,Apatin-Paracin Gas Pipeline,Apatin-Gospodinci,operating,Gas,Serbia,,,,--,93.04,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Apatin-Paracin_Gas_Pipeline
+P3047,Strandja–Lozenets Gas Pipeline,,operating,Gas,Bulgaria,,,,--,55.57,,,--,,,,,low,Mapped route (at any accuracy),https://gem.wiki/Strandja–Lozenets_Gas_Pipeline
+P3048,Strandja–Malkoclar Gas Pipeline,,operating,Gas,"Bulgaria, Türkiye",,,,--,15.74,,,--,,,,,medium,Mapped route (at any accuracy),https://gem.wiki/Strandja–Malkoclar_Gas_Pipeline
+P3055,Tarsia–Crotone Gas Pipeline,,operating,Gas,Italy,1976,,,--,128.5,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Tarsia–Crotone_Gas_Pipeline
+P3056,Tarsia–Rende Gas Pipeline,,operating,Gas,Italy,2009,,,--,33.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Tarsia–Rende_Gas_Pipeline
+P3057,Terranuova Bracciolini–Gallese Civita Cast Gas Pipeline,,operating,Gas,Italy,1993,,,--,169.2,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Terranuova_Bracciolini–Gallese_Civita_Cast_Gas_Pipeline
+P3058,Terranuova Bracciolini–Livorno Gas Pipeline,,operating,Gas,Italy,,,,--,114.14,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Terranuova_Bracciolini–Livorno_Gas_Pipeline
+P3071,Melizzano-Vastogirardi Gas Pipeline,Vastogirardi–Campochiaro Gas Pipeline,operating,Gas,Italy,1993,,,--,89,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Vastogirardi–Campochiaro_Gas_Pipeline
+P3072,Vastogirardi-Oricola Gas Pipeline,Vastogirardi–Sulmona Gas Pipeline,operating,Gas,Italy,,,,--,139.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Vastogirardi–Sulmona_Gas_Pipeline
+P3074,Masera–Mortara Gas Pipeline,,operating,Gas,Italy,1972,,,--,124.7,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Masera%E2%80%93Mortara_Gas_Pipeline
+P3076,Vigasio–Trento Gas Pipeline,,operating,Gas,Italy,1973,,,--,93.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Vigasio–Trento_Gas_Pipeline
+P3096,Zimella–Istrana Gas Pipeline,,operating,Gas,Italy,,,,--,69.95,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Zimella–Istrana_Gas_Pipeline
+P3097,Zimella–Poggio Renatico Gas Pipeline,,operating,Gas,Italy,2000,,,--,66.4,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Zimella–Poggio_Renatico_Gas_Pipeline
+P3104,Adriatica Pipeline,Sestino-Mercato Saraceno (Phase 1),construction,Gas,Italy,2026,,,1.83,140,,,496937411.76,FID,2024.0,yes,,low,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P3105,Adriatica Pipeline,Massafra - Biccari,operating,Gas,Italy,2012,,,8.8,195,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P3106,Adriatica Pipeline,Biccari - Campochiaro,operating,Gas,Italy,2016,,,8.8,73,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P3107,Adriatica Pipeline,Sulmona - Foligno (Phase 2),proposed,Gas,Italy,2027,,,6.94,170,,,603424000,FID,2024.0,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P3108,Adriatica Pipeline,Foligno -Sestino (Phase 2),proposed,Gas,Italy,2027,,,6.94,114,,,404649035.29,FID,2024.0,yes,,high,Mapped route (at any accuracy),https://www.gem.wiki/Adriatica_Pipeline
+P3109,Valchi Dol–Preselka Pipeline,Replacement Line,operating,Gas,Bulgaria,2022,,,--,23,,,1145775.3,FID,2022.0,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Valchi_Dol%E2%80%93Preselka_Pipeline
+P3110,Gorni Bogrov–Novi Iskar Pipeline,,operating,Gas,Bulgaria,,,,1.8,19,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Gorni_Bogrov%E2%80%93Novi_Iskar_Pipeline
+P3137,Alexandroupolis INGS Terminal Pipeline,,operating,Gas,Greece,2024,,,8.3,28,,,87200000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Alexandroupolis_INGS_Terminal_Pipeline
+P3203,Trans-Adriatic Gas Pipeline,TAP Expansion,proposed,Gas,"Türkiye, Greece, Albania, Italy",2025,,,10,0,,,1128150000,Pre-FID,,,,no route,Capacity expansion only,https://www.gem.wiki/Trans-Adriatic_Gas_Pipeline
+P3204,Trans-Anatolian Gas Pipeline,Expansion (Phase 2),proposed,Gas,"Georgia, Greece, Türkiye",2023,,,8,0,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Trans-Anatolian_Gas_Pipeline
+P3205,Trans-Anatolian Gas Pipeline,Expansion (Phase 3),proposed,Gas,"Georgia, Greece, Türkiye",2026,,,7,0,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Trans-Anatolian_Gas_Pipeline
+P3206,EastMed Gas Pipeline,Expansion,proposed,Gas,"Israel, Cyprus, Greece",,,,10,0,,,6540000000,Pre-FID,,yes,yes,no route,Capacity expansion only,https://www.gem.wiki/EastMed_Gas_Pipeline
+P3311,Serbia–Bosnia Interconnector Gas Pipeline,Indjija-Janja-Bijeljina,proposed,Gas,"Serbia, Bosnia and Herzegovina",2026,,,1.2,102,,,49050000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Serbia%E2%80%93Bosnia_Interconnector_Gas_Pipeline
+P3333,North Macedonia–Albania Gas Pipeline,,proposed,Gas,"North Macedonia, Albania",,,,2.02,135,,,102460000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/North_Macedonia%E2%80%93Albania_Gas_Pipeline
+P3335,North Macedonia–Bulgaria Gas Pipeline,,proposed,Gas,"North Macedonia, Bulgaria",,,,2.02,110,,,25070000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/North_Macedonia%E2%80%93Bulgaria_Gas_Pipeline
+P3336,Albania–Kosovo Gas Pipeline,,shelved,Gas,"Albania, Kosovo",2027,,,--,212,,,234350000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Albania%E2%80%93Kosovo_Gas_Pipeline
+P3343,El Tina Gas Pipeline,,operating,Gas,Egypt,2022,,,--,170,,,213440000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/El_Tina_Gas_Pipeline
+P3346,El Noubareya Gas Pipeline,,operating,Gas,Egypt,2015,,,--,66,,,76608000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/El_Noubareya_Gas_Pipeline
+P3366,El Tina- Abu Sultan- New Administrative Capital Gas Pipeline,,operating,Gas,Egypt,2019,,,--,165,,,213440000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/El_Tina_Abou_Sultan_New_Administrative_Capital_Gas_Pipeline
+P3384,Serbia–Bosnia Interconnector Gas Pipeline,Bijeljina–Banja Luka–Novi Grad,proposed,Gas,Bosnia and Herzegovina,2026,,,1.2,308,,,87200000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Serbia%E2%80%93Bosnia_Interconnector_Gas_Pipeline
+P3416,Donji Miholjac–Belišće Gas pipeline,,operating,Gas,Croatia,2020,,,1.05,20,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Donji_Miholjac%E2%80%93Beli%C5%A1%C4%87e_Gas_pipeline
+P3417,Kneginec–Varaždin II Gas Pipeline,,operating,Gas,Croatia,2020,,,0.54,8,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Kneginec%E2%80%93Vara%C5%BEdin_II_Gas_Pipeline
+P3420,Zadvarje–Brela Gas Pipeline,,cancelled,Gas,Croatia,2026,,,0.54,15,,,--,Pre-FID,2024.0,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Zadvarje%E2%80%93Brela_Gas_Pipeline
+P3481,Arab Gas Pipeline,Aleppo-Kilis Gas Pipeline,cancelled,Gas,"Syria, Türkiye",2011,,2015.0,10.3,64,,,71000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P3482,Arab Gas Pipeline,Homs-Aleppo Gas Pipeline,cancelled,Gas,Syria,,,2017.0,10.3,240,,,395500000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P3488,Kosovo-North Macedonia Gas Pipeline,,cancelled,Gas,"Kosovo, North Macedonia",2024,2021,2022.0,1.59,21,,,13025500,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Kosovo-North_Macedonia_Gas_Pipeline
+P3489,Vlora-Fier Gas Pipeline,,proposed,Gas,Albania,2030,,,1,40,,,19.06,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Vlora-Fier_Gas_Pipeline
+P3494,Svishtov Gas Pipeline,,operating,Gas,Bulgaria,2022,,,--,42,,,13625000,FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Svishtov_Gas_Pipeline
+P3620,Israel–Egypt Onshore Gas Pipeline,,construction,Gas,"Israel, Egypt",,,,6,65,,,200000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Israel%E2%80%93Egypt_Onshore_Gas_Pipeline
+P3657,Israel–Egypt Offshore Gas Pipeline,,proposed,Gas,"Israel, Egypt",,,,6.7,592.62,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Israel%E2%80%93Egypt_Offshore_Gas_Pipeline
+P3658,Israel Natural Gas Transmission System,,operating,Gas,"Israel, Jordan",2011,,,15,618.56,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Israel_Natural_Gas_Transmission_System
+P3659,Port Said - Arish Gas Pipeline,,operating,Gas,Egypt,,,,--,235,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Arish%E2%80%93Port_Said_Gas_Pipeline
+P3725,Bulgaria-Serbia Interconnector Gas Pipeline,Capacity expansion,construction,Gas,"Bulgaria, Serbia",2022,,,0.6,0,,,--,FID,2022.0,yes,,no route,Capacity expansion only,https://www.gem.wiki/Bulgaria_Serbia_Interconnection
+P3916,North Macedonia–Greece Interconnector Gas Pipeline,Gevgelija-Negotino,construction,Gas,"North Macedonia, Greece",2027,,,1.5,68,,,2697750,FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/North_Macedonia%E2%80%93Greece_Interconnector_Gas_Pipeline
+P3928,Nubaria–Sadat Gas Pipeline,,operating,Gas,Egypt,2014,,,4.38,73,,,31680000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Nubaria%E2%80%93Sadat_Gas_Pipeline
+P3929,El Wasta–Beni Suef Gas Pipeline,,operating,Gas,Egypt,2019,,,--,65,,,35520000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/El_Wasta%E2%80%93Beni_Suef_Gas_Pipeline
+P3930,New Administrative Capital–Dahshur Gas Pipeline,,operating,Gas,Egypt,2017,,,--,70,,,38720000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/New_Administrative_Capital%E2%80%93Dahshur_Gas_Pipeline
+P3931,Amriya–El Alamein Gas Pipeline,,operating,Gas,Egypt,2022,,,--,130,,,128000000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Amriya%E2%80%93El_Alamein_Gas_Pipeline
+P3932,Nooros–Abu Madi–El Gamil Gas Pipline,,operating,Gas,Egypt,2019,,,0.01,130,,,300000000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Nooros%E2%80%93Abu_Madi%E2%80%93El_Gamil_Gas_Pipline
+P3933,Trans-Balkan Gas Pipeline,,operating,Gas,"Türkiye, Bulgaria, Romania",1988,,,27,637.83,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Trans-Balkan_Pipeline
+P3934,Obaiyed-Amreya Northern Gas Pipeline,Tarek–Ameryia Gas Pipeline,operating,Gas,Egypt,,,,9.71,231,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Obaiyed-Amreya_Northern_Gas_Pipeline
+P3935,Salam–Matruh Terminal Gas Pipeline,,operating,Gas,Egypt,,,,0.22,75,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Salam%E2%80%93Matruh_Terminal_Gas_Pipeline
+P3936,BED/AS–Ameryia Gas Pipeline,,operating,Gas,Egypt,,,,3.58,160,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/BED/AS%E2%80%93Ameryia_Gas_Pipeline
+P3937,Badr El Din Spur Gas Pipelines,Badr El Din Spur (1),operating,Gas,Egypt,,,,1.84,130,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Badr_El_Din_Spur_Gas_Pipelines
+P3938,Badr El Din Spur Gas Pipelines,Badr El Din Spur (2),operating,Gas,Egypt,,,,1.53,130,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Badr_El_Din_Spur_Gas_Pipelines
+P3939,Abu Gharadig–Dahshour (1) Gas Pipeline,,operating,Gas,Egypt,,,,1.23,290,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Abu_Gharadig%E2%80%93Dahshour_(1)_Gas_Pipeline
+P3959,Cyprus-Turkey Gas Pipeline,Vasilikos-Girne,cancelled,Gas,Cyprus,,,2025.0,3.1,75,,,257882232,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Cyprus-Turkey_Gas_Pipeline
+P3985,Mellitah-BU-Attifel Gas Pipeline,,cancelled,Gas,Libya,,,,--,--,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Mellitah-BU-Attifel_Gas_Pipeline
+P3987,Intisar–Sarir Gas Pipeline,,operating,Gas,Libya,2017,,,--,235,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Intisar%E2%80%93Sarir_Gas_Pipeline
+P3988,Fargh–Sarir Gas Pipeline,,operating,Gas,Libya,2020,,,--,97,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Fargh%E2%80%93Sarir_Gas_Pipeline
+P4045,Kulata-Nea Missivria Gas Pipeline,,operating,Gas,"Bulgaria, Greece",,,,--,92.46,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Kulata-Nea_Mesimvria_Gas_Pipeline
+P4046,Skopje-Kriva Palanka Gas Pipeline,,operating,Gas,"North Macedonia, Bulgaria",,,,--,86.06,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Skopje-Kyustendil_Gas_Pipeline
+P4052,Klechovce-Negotino Gas Pipeline,,operating,Gas,North Macedonia,2016,,,--,61,,,75700000,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Klechovce-Negotino_Gas_Pipeline
+P4055,Negotino-Bitola Gas Pipeline,,operating,Gas,North Macedonia,2022,,,--,92,,,39240000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Negotino-Bitola_Gas_Pipeline
+P4057,Skopje-Tetolo-Gostivar Gas Pipeline,,operating,Gas,North Macedonia,2021,,,--,87,,,31610000,FID,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Skopje-Tetolo-Gostivar_Gas_Pipeline
+P4212,South Caucasus Gas Pipeline,Expansion (SCPX),operating,Gas,"Azerbaijan, Georgia, Türkiye",2018,,,16.63,489,,,4700000000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/South_Caucasus_Gas_Pipeline
+P4273,Sciacca-Canicatti Gas Pipeline,,operating,Gas,Italy,1992,,,--,82,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sciacca-Canicatti_Gas_Pipeline
+P4274,Palmi-Maida Gas Pipeline,,operating,Gas,Italy,1995,,,--,76.7,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Palmi-Maida_Gas_Pipeline
+P4275,Montesano-Buccino Gas Pipeline,,operating,Gas,Italy,1993,,,--,57.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Montesano-Buccino_Gas_Pipeline
+P4276,Buccino-Contrada-Melizzano Gas Pipeline,,operating,Gas,Italy,1996,,,--,137.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Buccino-Contrada-Melizzano_Gas_Pipeline
+P4278,Maenza-Gallese Gas Pipeline,,operating,Gas,Italy,1983,,,--,126.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Maenza-Gallese_Gas_Pipeline
+P4279,Celleno-Cetona Gas Pipeline,,operating,Gas,Italy,1994,,,--,59.1,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Celleno-Cetona_Gas_Pipeline
+P4280,Cetona-Terranuova Gas Pipeline,,operating,Gas,Italy,1994,,,--,75.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Cetona-Terranuova_Gas_Pipeline
+P4281,Terranuova-Minerbio Gas Pipeline,,operating,Gas,Italy,1984,,,--,155.6,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Terranuova-Minerbio_Gas_Pipeline
+P4282,Minerbio-Castelbolognese Gas Pipeline,,operating,Gas,Italy,1993,,,--,43.8,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Minerbio-Castelbolognese_Gas_Pipeline
+P4283,Minerbio–Parma Gas Pipeline,Castelfranco-Parma,operating,Gas,Italy,1994,,,--,80.7,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Minerbio%E2%80%93Parma_Gas_Pipeline
+P4284,Poggio Renatico-Cortemaggiore Gas Pipeline,,operating,Gas,Italy,1985,,,--,138.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Poggio_Renatico-Cortemaggiore_Gas_Pipeline
+P4285,Minerbio-Zimella Gas Pipeline,,operating,Gas,Italy,1980,,,--,85.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Minerbio-Zimella_Gas_Pipeline
+P4286,Parma-Cortemaggiore Gas Pipeline,,operating,Gas,Italy,1995,,,--,42.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Parma-Cortemaggiore_Gas_Pipeline
+P4287,Maida Saint Eufemia-Castrovillari Gas PIpeline,,operating,Gas,Italy,1981,,,--,101.6,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Maida_Saint_Eufemia-Castrovillari_Gas_PIpeline
+P4288,Melizzano-Castrovillari Gas Pipeline,,operating,Gas,Italy,1981,,,--,286.3,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Melizzano-Castrovillari_Gas_Pipeline
+P4289,Malborghetto-Camisano Gas Pipeline,,operating,Gas,Italy,1973,,,--,162.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Malborghetto-Camisano_Gas_Pipeline
+P4290,Pordenone-Istrana Gas Pipeline,,operating,Gas,Italy,1999,,,--,61.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Pordenone-Istrana_Gas_Pipeline
+P4291,Flaibano-Gonars-Villesse Gas Pipeline,,operating,Gas,Italy,1991,,,--,47,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Flaibano-Gonars-Villesse_Gas_Pipeline
+P4292,Saint Stefano Di Magra-Cortemaggiore Gas Pipline,,operating,Gas,Italy,1967,,,--,122.3,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Saint_Stefano_Di_Magra-Cortemaggiore_Gas_Pipline
+P4293,Sergnano-Mortara Gas Pipeline,,operating,Gas,Italy,1970,,,--,56.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sergnano-Mortara_Gas_Pipeline
+P4294,Cervignano-Rognano Gas Pipeline,,operating,Gas,Italy,1994,,,--,31.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Cervignano-Rognano_Gas_Pipeline
+P4295,Rognano-Mortara Gas Pipeline,,operating,Gas,Italy,1995,,,--,26.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Rognano-Mortara_Gas_Pipeline
+P4296,Passo Gries-Masera Gas Pipeline,,operating,Gas,Italy,1998,,,--,42.3,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Passo_Gries-Masera_Gas_Pipeline
+P4297,Veruno-Bizzarone Gas Pipeline,,operating,Gas,Italy,1976,,,--,47.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Veruno-Bizzarone_Gas_Pipeline
+P4298,Masera–Mortara Gas Pipeline,Capacity expansion,operating,Gas,Italy,2001,,,--,0,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Masera%E2%80%93Mortara_Gas_Pipeline
+P4299,Malborghetto-Flaibano Gas Pipeline,,operating,Gas,Italy,2002,,,--,76.6,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Malborghetto-Flaibano_Gas_Pipeline
+P4300,Villesse-Gorizia Gas Pipeline,,operating,Gas,Italy,2010,,,--,18.7,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Villesse-Gorizia_Gas_Pipeline
+P4301,Palmi-Martirano Gas Pipeline,,operating,Gas,Italy,2004,,,--,112.7,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Palmi-Martirano_Gas_Pipeline
+P4302,Enna-Montalbano Gas Pipeline,,operating,Gas,Italy,2005,,,--,87,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Enna-Montalbano_Gas_Pipeline
+P4303,Tarvisio-Malborghetto Gas Pipeline,,operating,Gas,Italy,2008,,,--,22.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tarvisio-Malborghetto_Gas_Pipeline
+P4304,Lauria-Tarsia Gas Pipeline,,operating,Gas,Italy,1994,,,--,69.3,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Lauria-Tarsia_Gas_Pipeline
+P4305,Poggio Renatico–Minerbio Gas Pipeline,Capacity expansion,operating,Gas,Italy,2015,,,--,0,,,--,,,,,no route,Capacity expansion only,https://gem.wiki/Poggio_Renatico–Minerbio_Gas_Pipeline
+P4306,Cavarzere-Minerbio Gas Pipeline,,operating,Gas,Italy,2008,,,--,83.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Cavarzere-Minerbio_Gas_Pipeline
+P4307,Altamura–Latiano Gas Pipeline,Sannicandrio-Latiano,operating,Gas,Italy,1990,,,--,143.9,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Altamura–Latiano_Gas_Pipeline
+P4308,Rimini–Sansepolcro Gas Pipeline,Capacity Expansion,cancelled,Gas,Italy,2023,2023,,--,0,,,--,,,,,no route,Capacity expansion only,https://gem.wiki/Rimini–Sansepolcro_Gas_Pipeline
+P4309,Sansepolcro-Terranuova Gas Pipeline,,operating,Gas,Italy,1970,,,--,45.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sansepolcro-Terranuova_Gas_Pipeline
+P4310,Istrana-Caldonazzo Gas Pipeline,,operating,Gas,Italy,1989,,,--,110.3,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Istrana-Caldonazzo_Gas_Pipeline
+P4312,Caldonazzo-Trento Gas Pipeline,,operating,Gas,Italy,1984,,,--,16.7,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Caldonazzo-Trento_Gas_Pipeline
+P4313,Mortara–Alessandria Gas Pipeline,Capacity expansion,operating,Gas,Italy,2008,,,--,0,,,--,,,,,no route,Capacity expansion only,https://gem.wiki/Mortara–Alessandria_Gas_Pipeline
+P4314,Mazara del Vallo-Gagliano Gas Pipeline,,operating,Gas,Italy,1980,,,--,224.1,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Mazara_del_Vallo-Gagliano_Gas_Pipeline
+P4315,Gagliano-Messina Gas Pipeline,,operating,Gas,Italy,1980,,,--,129.5,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Gagliano-Messina_Gas_Pipeline
+P4316,Mazara del Vallo-Menfi Gas Pipeline,,operating,Gas,Italy,2008,,,--,43.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Mazara_del_Vallo-Menfi_Gas_Pipeline
+P4317,Camisano-Zimella Gas Pipeline,,operating,Gas,Italy,1974,,,--,40.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Camisano-Zimella_Gas_Pipeline
+P4318,Zimella-Cervignano Gas Pipeline,,operating,Gas,Italy,2014,,,--,172.1,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Zimella-Cervignano_Gas_Pipeline
+P4319,Tarvisio-Zimella Gas Pipeline,,operating,Gas,Italy,1987,,,--,265.2,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Tarvisio-Zimella_Gas_Pipeline
+P4320,Bernalda-Brindisi Gas Pipeline,,operating,Gas,Italy,2000,,,--,111.6,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bernalda-Brindisi_Gas_Pipeline
+P4321,Celleno-Gallese Gas Pipeline,,operating,Gas,Italy,1993,,,--,35.1,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Celleno-Gallese_Gas_Pipeline
+P4322,Bosiljevo–Split Gas Pipeline,Zadar-Split,operating,Gas,Croatia,,,,--,134.64,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Bosiljevo–Split_Gas_Pipeline
+P4323,Donje Mijoljac-Oroslavke Gas Pipeline,Donje Mijoljac-Durdevac,operating,Gas,Croatia,,,,--,103.38,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Donje_Mijoljac-Oroslavke_Gas_Pipeline
+P4324,Donje Mijoljac-Oroslavke Gas Pipeline,Durdevac-Ludbreg,operating,Gas,Croatia,,,,--,37.07,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Donje_Mijoljac-Oroslavke_Gas_Pipeline
+P4325,Donje Mijoljac-Oroslavke Gas Pipeline,Ludbreg-Oroslavke,operating,Gas,Croatia,,,,--,62.54,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Donje_Mijoljac-Oroslavke_Gas_Pipeline
+P4331,Kalce-Kastav Gas Pipeline,,shelved,Gas,"Slovenia, Croatia",2024,,,--,62.95,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Kalce-Kastav_Gas_Pipeline
+P4333,Donje Mijolac-Bata Gas Pipeline,,operating,Gas,"Hungary, Croatia",,,,--,72.78,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Donje_Mijolac-Bata_Gas_Pipeline
+P4340,Gas Interconnector Bulgaria-Romania,,operating,Gas,"Romania, Bulgaria",2013,,,1.5,30,,,30084000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Gas_Interconnector_Bulgaria-Romania
+P4341,Romanian National Transmission System,Silistea-Onesti,operating,Gas,Romania,,,,--,147.92,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4342,Romanian National Transmission System,Onesti-Coroi,operating,Gas,Romania,,,,--,175.16,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4343,Romanian National Transmission System,Coroi-Jupa,operating,Gas,Romania,,,,--,216.97,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4344,Romanian National Transmission System,Jupa-Podisor,operating,Gas,Romania,,,,--,347.81,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4345,Romanian National Transmission System,Coroi-Satu,operating,Gas,Romania,,,,--,239.69,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4346,Romanian National Transmission System,Podisor-Silistea,operating,Gas,Romania,,,,--,203.85,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4347,Romanian National Transmission System,Coroi-Podisor,operating,Gas,Romania,,,,--,270.46,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4349,Romanian National Transmission System,Onesti-Letcani,operating,Gas,Romania,,,,--,166.9,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Romanian_National_Transmission_System
+P4350,Karacabey-Izmit Gas Pipeline,,operating,Gas,Türkiye,,,,--,232.68,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Karacabey-Izmit_Gas_Pipeline
+P4351,Duzce-Sungurlu Gas Pipeline,,operating,Gas,Türkiye,,,,--,318.13,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Duzce-Sungurlu_Gas_Pipeline
+P4352,Godas-Siirt Gas Pipeline,,operating,Gas,Türkiye,,,,--,412.23,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Godas-Siirt_Gas_Pipeline
+P4353,Konya-Kirsehir Gas Pipeline,,operating,Gas,Türkiye,,,,--,226.95,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Konya-Kirsehir_Gas_Pipeline
+P4354,Sacarya-Baklan Gas Pipeline,,operating,Gas,Türkiye,,,,--,354.49,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sacarya-Baklan_Gas_Pipeline
+P4355,Sarikali-Karacabey Gas Pipeline,,operating,Gas,Türkiye,,,,--,196.33,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Sarikali-Karacabey_Gas_Pipeline
+P4361,High Pressure Pipeline to West Macedonia,,construction,Gas,Greece,2025,,,--,157,,,201214000,FID,2021.0,,,high,Mapped route (at any accuracy),https://www.gem.wiki/High_Pressure_Pipeline_to_West_Macedonia
+P4362,Megalopoli-Patras Gas Pipeline,,proposed,Gas,Greece,2027,,,--,145,,,110526000,Pre-FID,2023.0,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Megalopoli-Patras_Gas_Pipeline
+P4364,Thiva-Megalopoli Gas Pipeline,,operating,Gas,Greece,,,,--,208.36,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Thiva-Megalopoli_Gas_Pipeline
+P4365,Apatin-Paracin Gas Pipeline,Gospodinci-Batajnica,operating,Gas,Serbia,,,,--,62.93,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Apatin-Paracin_Gas_Pipeline
+P4366,Apatin-Paracin Gas Pipeline,Batajnica-Paracin,operating,Gas,Serbia,,,,--,172.77,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Apatin-Paracin_Gas_Pipeline
+P4367,Batajnica-Velika Gas Pipeline,,operating,Gas,Serbia,,,,--,98.52,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Batajnica-Velika_Gas_Pipeline
+P4368,Horgos-Gospodinci Gas Pipeline,,operating,Gas,Serbia,,,,--,87.23,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Horgos-Gospodinci_Gas_Pipeline
+P4369,Pancevo-Horgos Gas Pipeline,Pancevo-Elemir,operating,Gas,Serbia,,,,--,122.49,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Pancevo-Horgos_Gas_Pipeline
+P4370,Pancevo-Horgos Gas Pipeline,Elemir-Horgos,operating,Gas,Serbia,,,,--,113.74,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Pancevo-Horgos_Gas_Pipeline
+P4371,Pojate-Leskovac Gas Pipeline,,operating,Gas,Serbia,,,,--,117.6,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Pojate-Leskovac_Gas_Pipeline
+P4372,Prahovo-Nis Gas Pipeline,,shelved,Gas,Serbia,,,,--,145.19,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Prahovo-Nis_Gas_Pipeline
+P4373,Serbia-Kosovo-Montenegro Gas Interconnector,Serbia-Kosovo,cancelled,Gas,"Serbia, Kosovo",,,,--,114,,,119900000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Serbia-Kosovo-Montenegro_Gas_Interconnector
+P4374,Serbia-Kosovo-Montenegro Gas Interconnector,Kosovo-Montenegro,cancelled,Gas,"Kosovo, Montenegro",,,,--,109.72,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Serbia-Kosovo-Montenegro_Gas_Interconnector
+P4464,Spain-Italy Offshore Interconnector,,shelved,Gas,"Spain, Italy",,,,30,700,,,--,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Spain-Italy_Offshore_Interconnector
+P4465,Rupcha-Vetrino Gas Pipeline,,construction,Gas,Bulgaria,2026,,,4.96,61,,,146510400,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Rupcha-Vetrino_Gas_Pipeline
+P4466,South Caucasus Gas Pipeline,South Caucasus Pipeline Future Expansion (SCPFX),shelved,Gas,"Azerbaijan, Georgia, Türkiye",,2024,,7,--,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/South_Caucasus_Gas_Pipeline
+P5132,Zohr–Al Gamil Pipelines,Pipeline 1,operating,Gas,Egypt,2019,,,--,216,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Zohr%E2%80%93Al_Gamil_Pipelines
+P5276,Gas for Gaza Pipeline,,proposed,Gas,Israel,,,,--,38.26,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Gas_for_Gaza_Pipeline
+P5301,Beglej-Dermantsi-Batultsi-Kalugerovo Pipeline,Replacement Line,operating,Gas,Bulgaria,,,,--,0,,,73553200,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Beglej-Dermantsi-Batultsi-Kalugerovo_Pipeline
+P5536,Sveti Nikole-Veles Gas Pipeline,,proposed,Gas,North Macedonia,2027,,,--,28,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Sveti_Nikole-Veles_Gas_Pipeline
+P5546,Gostivar-Kicevo Gas Pipeline,,proposed,Gas,North Macedonia,2027,,,--,35,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Gostivar-Kicevo_Gas_Pipeline#Background
+P5553,Malborghetto-Flaibano Gas Pipeline,Bordano-Flaibano Expansion,operating,Gas,Italy,2026,,,--,38,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Malborghetto-Flaibano_Gas_Pipeline
+P5554,Pontremoli–La Spezia Gas Pipeline,Capacity expansion,operating,Gas,Italy,2026,,,--,43,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Pontremoli–La_Spezia_Gas_Pipeline
+P5555,Cortemaggiore–Pontremoli Gas Pipeline,Capacity expansion,operating,Gas,Italy,2026,,,--,107,,,--,,,,,high,Mapped route (at any accuracy),https://gem.wiki/Cortemaggiore–Pontremoli_Gas_Pipeline
+P5605,Karperi-Komotini Gas Pipeline,Parallel Pipeline,proposed,Gas,Greece,2027,,,3,215,,,316100000,Pre-FID,2025.0,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Karperi-Komotini_Gas_Pipeline
+P5606,Patima-Livadeia Gas Pipeline,,proposed,Gas,Greece,2027,,,--,100,,,164099500,Pre-FID,2025.0,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/The_Patima-Livadeia_Gas_Pipeline
+P5607,Mavromati-Larymna Gas Pipeline,Main Line,proposed,Gas,Greece,,,,--,36,,,21015200,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/The_Mavromati-Larymna_Gas_Pipeline
+P5897,Chiren-Butan Gas Pipeline,,operating,Gas,Bulgaria,2024,,,--,41,,,35340000,FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Chiren-Butan_Gas_Pipeline
+P5898,Bulgaria National Gas Transmission Network,Kyustendil/Zhidilovo Interconnection Point (IP) expansion,operating,Gas,Bulgaria,2025,,,0.18,--,,,--,FID,,,,no route,Capacity expansion only,https://www.gem.wiki/Bulgaria_National_Gas_Transmission_Network
+P5899,Kulata-Kresna Gas Pipeline,,construction,Gas,Bulgaria,2026,,,1.3,48,,,54529800,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Kulata-Kresna_Gas_Pipeline
+P5900,Piperevo-Pernik Gas Pipeline,,proposed,Gas,Bulgaria,2026,,,--,53,,,46708800,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Piperevo-Pernik_Gas_Pipeline
+P6032,Borg El Arab–Midor Gas pipeline ,,operating,Gas,Egypt,2021,,,--,10,,,7680000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Borg_El_Arab%E2%80%93Midor_Gas_pipeline
+P6033,Damietta–SEGAS Pipeline,,operating,Gas,Egypt,2021,,,--,12,,,--,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Damietta%E2%80%93SEGAS_Pipeline
+P6034,Hurghada–Safaga Gas Pipeline ,,operating,Gas,Egypt,2021,,,--,38.5,,,23168000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Hurghada%E2%80%93Safaga_Gas_Pipeline
+P6035,Gamasa–Veunsa Gas Pipeline ,,operating,Gas,Egypt,2015,,,0.07,34,,,21760000,,,,,no route,Unavailable (cannot find route),https://www.gem.wiki/Gamasa%E2%80%93Veunsa_Gas_Pipeline
+P6036,Zohr–Al Gamil Pipelines,Pipeline 2,operating,Gas,Egypt,2017,,,--,210,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Zohr%E2%80%93Al_Gamil_Pipelines
+P6037,Al Gamil–Damietta Gas Pipeline,,operating,Gas,Egypt,,,,7.67,50,,,69696000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Al_Gamil%E2%80%93Damietta_Gas_Pipeline
+P6649,Trans-Mediterranean Gas Pipeline,,operating,Gas,"Tunisia, Italy ",,,,--,155,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Trans-Mediterranean_Gas_Pipeline
+P6650,Trans-Mediterranean Gas Pipeline,Sicily–Strait of Messina,operating,Gas,Italy,,,,--,355,,,--,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Trans-Mediterranean_Gas_Pipeline
+P6685,Solaimaneyah-North Giza Gas Pipeline,,construction,Gas,Egypt,,,,--,20,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Solaimaneyah-North_Giza_Gas_Pipeline
+P6686,New Fayoum Gas Pipeline ,,construction,Gas,Egypt,,,,--,40,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/New_Fayoum_Gas_Pipeline
+P6687,Obaiyed-Amreya Northern Gas Pipeline,Obaiyed Spurline,operating,Gas,Egypt,,,,4.91,41.5,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Obaiyed-Amreya_Northern_Gas_Pipeline
+P6688,Shams-Obaiyed Gas Pipeline,,operating,Gas,Egypt,,,,2.45,42,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Obaiyed-Amreya_Northern_Gas_Pipeline
+P6689,Abu Sennan Spur Gas Pipeline,,operating,Gas,Egypt,,,,--,45,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Abu_Sennan_Spur_Gas_Pipeline
+P6692,Qasr-Shams Gas Pipeline ,,operating,Gas,Egypt,,,,3.58,40,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Qasr-Shams_Gas_Pipeline
+P6693,Salam Spurline Gas Pipeline,,operating,Gas,Egypt,,,,2.56,35,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Salam_Spurline_Gas_Pipeline
+P6697,South Valley Gas Pipeline,Dahshour-Al Kurimat Gas Pipeline,operating,Gas,Egypt,2009,,,--,90,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6698,South Valley Gas Pipeline,Al Kurimat-Beni Suef Gas Pipeline,operating,Gas,Egypt,2009,,,--,30,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6699,South Valley Gas Pipeline,Beni Suef-Abu qurqas Gas pipeline,operating,Gas,Egypt,2009,,,--,150,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6700,South Valley Gas Pipeline,Abu qurqas-Asyut Gas pipeline,operating,Gas,Egypt,2009,,,--,147,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6701,South Valley Gas Pipeline,Asyut-Girga Gas pipeline,operating,Gas,Egypt,2009,,,--,121,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6702,South Valley Gas Pipeline,Girga-Aswan Gas pipeline,operating,Gas,Egypt,2009,,,--,390,,,--,,,,,no route,Included in other ProjectID,https://www.gem.wiki/South_Valley_Gas_Pipeline
+P6703,Raven-Western Desert Cmplex Gas Pipeline,,operating,Gas,Egypt,2021,,,0,70,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Raven-Western_Desert_Cmplex_Gas_Pipeline
+P6704,Raven-Al Ameryia Gas Pipeline,,operating,Gas,Egypt,2022,,,--,5,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Raven-Al_Ameryia_Gas_Pipeline
+P6705,Wafa-Mellitah Gas Pipeline,Pipeline 2,operating,Gas,Libya,2004,,,--,524.65,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Wafa-Mellitah_gas_pipeline
+P6707,Sirte Gulf PS Gas Pipeline,,construction,Gas,Libya,,,,--,5,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Sirte_Gulf_PS_Gas_Pipeline
+P6708,NC 41-Mellitah Gas Pipeline,,construction,Gas,Libya,2025,,,--,130,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/NC_41-Mellitah_Gas_Pipeline
+P6709,Bouri-Bahr Asslam Gas Pipeline,Pipeline 2,operating,Gas,Libya,,,,--,19.31,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Bouri-Bahr_Assalam_gas_pipeline
+P6713,Bahr Assalam–Mellitah Gas Pipeline,Pipeline 2,operating,Gas,Libya,2018,,,0,109,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Bahr_Assalam-Mellitah_gas_pipeline
+P6714,Bu-Attifel-Intesar Gas Pipeline,Pipeline 2,operating,Gas,Libya,,,,0,131.96,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known), https://www.gem.wiki/Bu-Attifel-Intesar_gas_pipeline
+P6715,E Structure-Mellitah Gas Pipeline,,construction,Gas,Libya,2026,,,--,130,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/E_Structure-Mellitah_Gas_Pipeline
+P6716,DP3–DP4–Sabratha Gas Pipeline,DP3–DP4,construction,Gas,Libya,2028,,,--,8.5,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/DP3%E2%80%93DP4%E2%80%93Sabratha_Gas_Pipeline
+P6872,Lucera-San Paolo Gas Pipeline,,construction,Gas,Italy,2025,,,--,69,,,90797000,FID,2024.0,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Lucera-San_Paolo_Gas_Pipeline
+P6879,Larino-Sora-Colleferro Gas Pipeline,,construction,Gas,Italy,,,,--,12,,,--,FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Larino-Sora-Colleferro_Gas_Pipeline
+P6880,FSRU Ravenna Gas Pipeline,Onshore Pipeline,operating,Gas,Italy,2025,,,7.95,31,,,--,FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/FSRU_Ravenna_Gas_Pipeline
+P6881,FSRU Ravenna Gas Pipeline,Sealine Connection,operating,Gas,Italy,2025,,,7.95,10,,,--,FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/FSRU_Ravenna_Gas_Pipeline
+P6886,Croatia-Slovenia Interconnector Gas Pipeline,BS Rakitje-Zabok,construction,Gas,Croatia,2026,,,5.7,26,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Croatia-Slovenia_Interconnector_Gas_Pipeline
+P6887,Croatia-Slovenia Interconnector Gas Pipeline,Zabok-Jezerisce,proposed,Gas,Croatia,2030,,,5.7,25,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Croatia-Slovenia_Interconnector_Gas_Pipeline
+P6888,Croatia-Slovenia Interconnector Gas Pipeline,Lučko-BS Rakitje,construction,Gas,Croatia,2026,,,5.7,10,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Croatia-Slovenia_Interconnector_Gas_Pipeline
+P6889,EastMed Gas Pipeline,Crete-Peloponnese,proposed,Gas,"Israel, Cyprus, Greece",,,,10,429,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6890,EastMed Gas Pipeline,Pelopponese-West Greece,proposed,Gas,"Israel, Cyprus, Greece",,,,10,317,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6891,EastMed Gas Pipeline,Cypriot water-Cypriot mainland,proposed,Gas,"Israel, Cyprus, Greece",,,,10,59,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6892,EastMed Gas Pipeline,West Greece-Thesprotia,proposed,Gas,"Israel, Cyprus, Greece",,,,10,236,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6893,EastMed Gas Pipeline,Cyprus-Crete,proposed,Gas,"Israel, Cyprus, Greece",,,,10,732,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6894,EastMed Gas Pipeline,Israel-Crete,proposed,Gas,"Israel, Cyprus, Greece",,,,10,935,,,6540000000,Pre-FID,2023.0,yes,yes,no route,Included in other ProjectID,https://www.gem.wiki/EastMed_Gas_Pipeline
+P6903,Zimella–Poggio Renatico Gas Pipeline,Capacity Expansions Project,proposed,Gas,Italy,2031,,,8.03,65,,,391310000,Pre-FID,,,,no route,Capacity expansion only,https://gem.wiki/Zimella–Poggio_Renatico_Gas_Pipeline
+P6904,Ihtiman-Gorni Bogrov Gas Pipeline,Replacement Line,proposed,Gas,Bulgaria,2028,,,--,50,,,--,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Ihtiman%E2%80%93Gorni_Bogrov_Gas_Pipeline
+P6905,Kresna-Piperevo Gas Pipeline,,proposed,Gas,Bulgaria,2028,,,--,85,,,--,Pre-FID,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Kresna-Piperevo_Gas_Pipeline
+P6907,Methanization of Sardinia Project,Phase 2,proposed,Gas,Italy,2030,,,1.68,260,,,--,Pre-FID,,,,no route,Included in other ProjectID,https://www.gem.wiki/Methanization_of_Sardinia_Project
+P7019,Manavgat-Alanya-Gazipaşa-Anamur Gas Pipeline,,construction,Gas,Türkiye,,,,--,158,,,--,,,,,medium,Mapped route (at any accuracy),https://www.gem.wiki/Manavgat-Alanya-Gazipa%C5%9Fa-Anamur_Gas_Pipeline
+P7102,Nigeria–Libya Gas Pipeline,,proposed,Gas,"Nigeria, Niger, Libya",,,,--,3187.74,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Nigeria%E2%80%93Libya_Gas_Pipeline
+P7447,Denise Gas Pipeline,,operating,Gas,Egypt,,,,--,405,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Denise_Gas_Pipeline
+P7482,Arab Gas Pipeline,Taba-Aqaba Sea Gas Pipeline,operating,Gas,"Egypt, Jordan",2003,,,10.3,18,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P7511,Arab Gas Pipeline,Aqaba-Rihab Gas Pipeline,operating,Gas,Jordan,2005,,,10.3,393,,,276000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P7530,Türkiye-Syria Natural Gas Pipeline,,operating,Gas,"Syria, Türkiye",2025,,,2,93,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/T%C3%BCrkiye-Syria_Natural_Gas_Pipeline
+P7539,Arab Gas Pipeline,Rihab-Jaber Gas Pipeline,operating,Gas,Jordan,2007,,,10.3,30,,,35000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P7540,Arab Gas Pipeline,Jaber-Homs Gas Pipeline,operating,Gas,"Jordan, Syria",2008,,,10.3,324,,,200000000,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P7541,Arab Gas Pipeline,Homs-Deir Ammar Gas Pipeline,mothballed,Gas,"Syria, Lebanon",2009,,,10.3,101,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Arab_Gas_Pipeline
+P7567,Idku-Abu Hummus Gas Pipeline,,operating,Gas,Egypt,2022,,,--,30,,,46912000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Idku-Abu_Hummus_Gas_Pipeline
+P7572,Qarun Gas Pipeline,,operating,Gas,Egypt,,,,--,206,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Qarun_Gas_Pipeline
+P7573,Basra-Ceyhan Gas Pipeline,,proposed,Gas,"Iraq, Türkiye",,,,5,1734.01,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Basra-Ceyhan_Gas_Pipeline
+P7574,New Administration Capital PS Gas Pipeline,,operating,Gas,Egypt,,,,--,63,,,20928000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/New_Administration_Capital_PS_Gas_Pipeline
+P7577,Baltim Field Gas Pipelines ,Sub-Sea Pipeline,operating,Gas,Egypt,2019,,,5.11,18,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Baltim_Field_Gas_Pipelines
+P7578,Baltim Field Gas Pipelines ,Onshore Pipeline,operating,Gas,Egypt,2019,,,5.11,25,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Baltim_Field_Gas_Pipelines
+P7580,Mahmoudiah PS Gas Pipeline ,,operating,Gas,Egypt,,,,--,52,,,40768000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Mahmoudiah_PS_Gas_Pipeline
+P7588,Edfu Gas Pipeline ,,operating,Gas,Egypt,2014,,,--,37,,,6080000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Edfu_Gas_Pipeline
+P7589,Framid Field Gas Pipeline,,operating,Gas,Egypt,2023,,,0.26,38,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Framid_Field_Gas_Pipeline
+P7597,Cronos-Port Said Gas Pipeline ,,proposed,Gas,"Egypt,Cyprus",2027,,,5.11,90,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Cronos-Port_Said_Gas_Pipeline
+P7598,Sakarya Gas Pipeline,Phase I,operating,Gas,Türkiye,2023,,,3.5,201,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Sakarya_Gas_Pipeline
+P7599,Sakarya Gas Pipeline,Phase II,construction,Gas,Türkiye,2027,,,10.5,158,,,--,,,,,low,Mapped route (at any accuracy),https://www.gem.wiki/Sakarya_Gas_Pipeline
+P7602,Leviathan Subsea Gas Pipelines ,Pipeline I,operating,Gas,Israel,2019,,,6,120,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Leviathan_Subsea_Gas_Pipelines
+P7603,Leviathan Subsea Gas Pipelines ,Pipeline II,operating,Gas,Israel,2019,,,6,120,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Leviathan_Subsea_Gas_Pipelines
+P7604,Leviathan Subsea Gas Pipelines ,Pipeline III,construction,Gas,Israel,2026,,,2,120,,,568000000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Leviathan_Subsea_Gas_Pipelines
+P7605,Ashdod-Ashkelon Gas Pipeline,,construction,Gas,Israel,,,,--,46,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Ashdod-Ashkelon_Gas_Pipeline
+P7606,Leviathan Subsea Gas Pipelines ,Pipeline IV,proposed,Gas,Israel,,,,2,120,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Leviathan_Subsea_Gas_Pipelines
+P7617,DP3–DP4–Sabratha Gas Pipeline,DP4–Sabratha,construction,Gas,Libya,,,,--,20,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/DP3%E2%80%93DP4%E2%80%93Sabratha_Gas_Pipeline
+P7703,Upper Tyrrhenian Sea Gas Pipeline,,proposed,Gas,Italy,2026,,,--,35,,,332450000,,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Upper_Tyrrhenian_Sea_Gas_Pipeline
+P7709,Gasification of Eastern Republika Srpska,Šekovići–Vlasenica–Milići,construction,Gas,Bosnia and Herzegovina,2026,,,--,48,,,--,FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Gasification_of_Eastern_Republika_Srpska
+P7710,Bosnia and Herzegovina–Croatia South Interconnection Gas Pipeline,Zagvozd-Imotski-Posušje,proposed,Gas,"Bosnia and Herzegovina, Croatia",2026,,,1.5,22,,,17440000,Pre-FID,,,,high,Mapped route (at any accuracy),https://www.gem.wiki/Bosnia_and_Herzegovina%E2%80%93Croatia_South_Interconnection_Gas_Pipeline
+P7716,Omišalj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica LNG main evacuation pipeline,Bosiljevo-Sisak,proposed,Gas,Croatia,2026,,,1.84,102,,,293442295.08,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Omi%C5%A1alj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica_LNG_main_evacuation_pipeline
+P7717,Omišalj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica LNG main evacuation pipeline,Kozarac-Sisak,proposed,Gas,Croatia,2026,,,1.84,20,,,57537704.92,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Omi%C5%A1alj-Zlobin-Bosiljevo-Sisak-Kozarac-Slobodnica_LNG_main_evacuation_pipeline
+P7724,Serbia-North Macedonia Interconnection Pipeline,Serbian Segment,proposed,Gas,"Serbia, North Macedonia",2023,,,1.5,47,,,--,Pre-FID,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Serbia-North_Macedonia_Interconnector_Pipeline
+P7745,Paracin - Prahovo Gas Pipeline,,proposed,Gas,Serbia,,,,--,239,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Paracin_-_Prahovo_Gas_Pipeline
+P7749,Bitola-Ohrid Gas Pipeline,,proposed,Gas,North Macedonia,,,,--,60,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Bitola-Ohrid_Gas_Pipeline
+P7750,Kicevo-Ohrid Gas Pipeline,,proposed,Gas,North Macedonia,,,,--,48,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Kicevo-Ohrid_Gas_Pipeline
+P7751,Stip-Strumica-Kulata Gas Pipeline,,proposed,Gas,North Macedonia,,,,--,78,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Stip-Strumica-Kulata_Gas_Pipeline
+P7752,Vrsakovo-Berovo Gas Pipeline,,proposed,Gas,North Macedonia,,,,--,102,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Vrsakovo-Berovo_Gas_Pipeline
+P7762,Poseidon Gas Pipeline,Onshore Section,proposed,Gas,"Greece, Italy",,,,12,760,,,1144500000,Pre-FID,2023.0,yes,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Poseidon_Gas_Pipeline
+P7763,Poseidon Gas Pipeline,Capacity Expansion,proposed,Gas,"Greece, Italy",,,,8,0,,,--,,,,,no route,Capacity expansion only,https://www.gem.wiki/Poseidon_Gas_Pipeline
+P7774,Bosnia and Herzegovina–Croatia South Interconnection Gas Pipeline,Zenica - Travnik,mothballed,Gas,"Bosnia and Herzegovina, Croatia",,,,--,36.2,,,22890000,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Bosnia_and_Herzegovina%E2%80%93Croatia_South_Interconnection_Gas_Pipeline
+P7781,Semizovac – Zenica Gas Pipeline,,operating,Gas,Bosnia and Herzegovina,1983,,,--,54.65,,,--,,,,,no route,Not mapped (but could be — route or endpoints are known),https://www.gem.wiki/Semizovac_%E2%80%93_Zenica_Gas_Pipeline
+P7786,Gas Interconnector Greece–Bulgaria (IGB),Capacity Expansion,proposed,Gas,"Greece, Bulgaria",2026,,,2,--,,,11445000,,,,,no route,Capacity expansion only,https://www.gem.wiki/Gas_Interconnector_Greece_-_Bulgaria_(IGB)
